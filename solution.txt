@@ -1,0 +1,70 @@
+  247  cd generalassembly
+  248  cd git-practice
+  249  ls
+  250  cd Star_Wars
+  251  code .
+  252  ls
+  253  mkdir star_wars
+  254  cd star_wars
+  255  ls
+  256  mkdir empire rebellion
+  257  ls
+  258  touch darth_vader.txt /empire
+  259  ls
+  260  mv darth_vader.txt empire
+  261  cd empire
+  262  ls
+  263  echo "...heavy breathing..." >> darth_vader.txt
+  264  open darth_vader.txt
+  265  touch emperor_palpatine.txt
+  266  mkdir death_star
+  267  ls
+  268  mv darth_vader.txt death_star
+  269  cd death_star
+  270  ls
+  271  git add .
+  272  git ?
+  273  git status
+  274  cd ..
+  275  git add .
+  276  git status
+  277  cd ..
+  278  git add .
+  279  git status
+  280  git commit -m "The Force is strong with this one..."
+  281  cd star_wars/rebellion
+  282  echo "Help me, Obi-Wan...You're my only hope." > princess_leia.txt
+  283  touch obi_wan.txt
+  284  touch luke_skywalker.txt
+  285  ls
+  286  mkdir millenium_falcon
+  287  cd millenium_falcon
+  288  touch han_solo.txt chewbacca.txt
+  289  ls
+  290  cd ..
+  291  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  292  ls
+  293  mv millenium_falcon ../empire/death_star
+  294  cd ../..
+  295  git add .
+  296  git status
+  297  git commit -m "All too easy..."
+  298  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  299  cd star_wars/empire/death_star
+  300  ls
+  301  rm obi_wan.txt
+  302  ls
+  303  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  304  ls
+  305  ls ./millenium_falcon
+  306  mv millenium_falcon ../../rebellion
+  307  mv darth_vader.txt ..
+  308  cd ..
+  309  ls
+  310  rm death_star
+  311  rmdir death_star
+  312  ls
+  313  cd ../..
+  314  git add .
+  315  git status
+  316  git commit -m "The Force will be with you. Always."
