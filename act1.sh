@@ -11,6 +11,6 @@ echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
 # 5. Inside the empire directory, create a file called emperor_palpatine.txt
 cd empire && touch emperor_palpatine.txt
 # 6. Inside the empire directory, create a directory called death_star
-mkdir death_star
+cd empire mkdir death_star
 # 7. Move darth_vader.txt into the death_star
 mv darth_vader.txt death_star
