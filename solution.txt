@@ -1,0 +1,145 @@
+269  pwd
+  270  git clone https://github.com/fxhanloniii/Star_Wars.git
+  271  ls
+  272  cd Star_Wars
+  273  code .
+  274  ls
+  275  cd act1.sh
+  276  pwd
+  277  mkdir star_wars
+  278  mkdir star_wars1
+  279  cd star_wars1
+  280  mkdir empire && mkdir rebellion
+  281  cd star_wars
+  282  ../
+  283  clear
+  284  ../
+  285  ls
+  286  cd star_wars
+  287  ls
+  288  mkdir empire && mkdir rebellion
+  289  ls
+  290  pwd
+  291  cd empire
+  292  touch darth_vader.txt
+  293  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt
+  294  echo "...heavy breathing..." >> darth_vader.txt
+  295  pwd
+  296  touch emperor_palpatine.txt
+  297  mkdir death_star
+  298  mv ~/empire/darth_vader.txt ~/empire/death_star 
+  299  mv ~/empire/darth_vader.txt ~/death_star
+  300  mv darth_vader.txt /death_star
+  301  mv darth_vader.txt death_star
+  302  ../
+  303  git status
+  304  git add .
+  305  git status
+  306  git commit -m "Act 1 Completed/Ready For Review"
+  307  git status
+  308  git push origin master
+  309  cd star_wars
+  310  cd rebellion
+  311  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  312  touch obi_wan.txt
+  313  touch luke_skywalker.txt
+  314  mkdir millenium_falcon
+  315  cd millenium_falcon && touch han_solo.txt && touch chewbacca.txt
+  316  mv luke_skywalker.txt && mv obi_wan.txt && mv princess_leia.txt millenium_falcon
+  317  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  318  ../
+  319  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  320  ../
+  321  mv millenium_falcon death_star
+  322  cd rebellion
+  323  mv millenium_falcon death_star
+  324  mv millenium_falcon /empire/death_star/
+  325  mv rebellion/millenium_falcon empire/death_star
+  326  mv rebellion/millenium_falcon death_star/
+  327  ../
+  328  mv rebellion/millenium_falcon death_star/
+  329  mv death_star rebellion/millenium_falcon
+  330  mv rebellion/millenium_falcon /empire/death_star/
+  331  mv rebellion/millenium_falcon empire/death_star/
+  332  mv luke_skywalker.txt rebellion
+  333  cd millenium_falcon
+  334  cd empire && cd death_star && cd millenium_falcon
+  335  mv luke_skywalker.txt rebellion
+  336  mv rebellion luke_skywalker.txt
+  337  mv luke_skywalker.txt empire/rebellion/
+  338  ../
+  339  cd rebellion
+  340  ls
+  341  ../
+  342  ls
+  343  mv luke_skywalker.txt star_wars/rebellion/
+  344  mv millenium_falcon/luke_skywalker.txt star_wars/rebellion/
+  345  cd empire
+  346  cd death_star
+  347  cd millenium_falcon
+  348  mv millenium_falcon/luke_skywalker.txt star_wars/rebellion
+  349  mv /star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt star_wars/rebellion/
+  350  mv ~/luke_skywalker.txt /rebellion
+  351  ../
+  352  cd rebellion
+  353  mkdir test
+  354  ../
+  355  git status
+  356  git add .
+  357  git status
+  358  git commit -m "Act 2 Completed/Ready For Review"
+  359  git status
+  360  git push origin master
+  361  cd star_wars
+  362  cd empire && cd death_star
+  363  mv millenium_falcon/* empire/death_star/
+  364  mv millenium_falcon/* star_wars/empire/death_star/
+  365  ls
+  366  cd millenium_falcon
+  367  mv millenium_falcon/* death_star/
+  368  ../
+  369  mv millenium_falcon/* death_star/
+  370  mv millenium_falcon/* death_star
+  371  ../
+  372  mv death_star/millenium_falcon/* empire/death_star
+  373  ../
+  374  mv death_star/millenium_falcon/* empire/death_star
+  375  mv /Star_Wars/star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  376  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star/
+  377  mv /death_star/millenium_falcon/* /death_star/
+  378  mv /death_star/millenium_falcon/ * /death_star/
+  379  mv /death_star/millenium_falcon/ * death_star/
+  380  cd empire
+  381  cd death_star
+  382  mv death_star/millenium_falcon/* death_star/
+  383  cd millenium_falcon
+  384  mv millenium_falcon/* death_star/
+  385  mv ~/millenium_falcon/* ~/death_star/
+  386  mv /Users/frankiehanlon/Star_Wars/star_wars/empire/death_star/millenium_falcon/* /Users/frankiehanlon/Star_Wars/star_wars/empire/death_star
+  387  rm obi_wan.txt
+  388  ../
+  389  rm obi_wan.txt
+  390  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  391  mv millenium_falcon star_wars/rebellion/
+  392  mv death_star/millenium_falcon star_wars/rebellion/
+  393  cd millenium_falcon
+  394  mv millenium_falcon star_wars/rebellion/
+  395  ../
+  396  mv empire/death_star/millenium_falcon star_wars/rebellion/
+  397  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion/
+  398  ../
+  399  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion/
+  400  ~/
+  401  pwd
+  402  ls
+  403  cd Star_Wars
+  404  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire/
+  405  rm death_star
+  406  rm star_wars/empire/death_star
+  407  rm -rf star_wars/empire/death_star
+  408  git status
+  409  git add .
+  410  git status
+  411  git commit -m "Act 3 Completed/Ready For Review"
+  412  git status
+  413  git push origin master
