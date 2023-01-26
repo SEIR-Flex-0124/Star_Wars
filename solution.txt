@@ -1,0 +1,54 @@
+  143  git clone https://github.com/uriapete/Star_Wars.git
+  144  ls
+  145  cd Star_Wars
+  146  code .
+  147  pwd
+  148  mkdir star_wars
+  149  git status
+  150  git add -a
+  151  git add --a
+  152  git status
+  153  git commit -m "Completed act1 01"
+  154* git remote show origin
+  155  touch star_wars/empire/emperor_palpatine.txt
+  156  mkdir star_wars/empire/death_star
+  157  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  158  git status
+  159  git add -a && git status
+  160  git add --a && git status
+  161  git commit -m "Completed act1 02 (Actually done it this time I think)\n"
+  162  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >>star_wars/rebellion/princess_leia.txt
+  163  mkdir rebellion
+  164  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >>star_wars/rebellion/princess_leia.txt
+  165  mv rebellion star_wars
+  166  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >>star_wars/rebellion/princess_leia.txt
+  167  touch star_wars/rebellion/obi_wan.txt
+  168  touch star_wars/rebellion/luke_skywalker.txt
+  169  mkdir star_wars/rebellion/millenium_falcon
+  170  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  171  mv
+  172  cd star_wars/rebellion/
+  173  mv luke_skywalker.txt millenium_falcon && mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+  174  cd ..
+  175  mv rebellion/millenium_falcon empire/death_star
+  176  git status
+  177  git add --a && git status
+  178  git commit -m "Completed act2 01 (Finally did act1 correctly for sure this time i think)\n"
+  179  cd empire/death_star
+  180  mv millenium_falcon/* .
+  181  rm obi_wan.txt
+  182  ls !(d*)
+  183  ls 
+  184  ls *
+  185  shopt 
+  186  glob
+  187  extglob
+  188  mv *.txt millenium_falcon && mv millenium_falcon/darth_vader.txt .
+  189  cd ../..
+  190  mv empire/death_star/millenium_falcon rebellion
+  191  mv empire/death_star/darth_vader.txt empire
+  192  rm -r empire/death_star
+  193  git status
+  194  git add -a && git status
+  195  cd .. && git add --a && git status
+  196  git commit -m "Completed act3 01"
