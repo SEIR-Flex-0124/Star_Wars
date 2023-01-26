@@ -1,0 +1,250 @@
+  406  ls
+  407  cd empire
+  408  touch darth vader.txt
+  409  ls
+  410  pwd
+  411  ls
+  412  rm darth
+  413  rm vader.txt
+  414  vim vader.txt
+  415  pwd
+  416  touch emperor_palpatine.txt
+  417  ls
+  418  mkdir death_star
+  419  mv  darth_vador.txt  death_star 
+  420  mv  darth_vador.txt ../ death_star 
+  421  cd ..
+  422  ls
+  423  cd empire
+  424  ls
+  425  mv darth_vader.txt death_star
+  426  git add
+  427  git add .
+  428  git status
+  429  git commit -m "act1 complete"
+  430  cd 
+  431  ls
+  432  cd General-Assembly
+  433  ls
+  434  cd star_wars
+  435  ls
+  436  rm empire
+  437  rm -r empire
+  438  ls
+  439  cd star_wars_lab
+  440  ls
+  441  cd star_wars
+  442  ls
+  443  cd rebellion
+  444  pwd
+  445  touch princess_leia.txt echo "Help me, obi-wan...you're my only hope." 
+  446  git add .
+  447  git commit -m "act 1"
+  448  pwd
+  449  touch obi_wan.txt
+  450  git add .
+  451  git commit -m "act2 2"
+  452  touch luke_skywalker.txt
+  453  git add .
+  454  git commit -m "act2 3"
+  455  mkdir millenium_falcon
+  456  cd millenium_falcon
+  457  git add .
+  458  git commit -m "act2 4\n"
+  459  pwd
+  460  touch han_solo.txt chewbacca.txt
+  461  la
+  462  ls
+  463  git add .
+  464  git commit -m "act2 5"
+  465  cd ..
+  466  ls
+  467  mv luke_skywalker.txt millenium_falcon
+  468  mv obi_wan.txt millenium_falcon
+  469  mv princess_leia.txt millenium_falcon
+  470  ls
+  471  cd millenium_falcon
+  472  ls
+  473  vim princess_leia.txt
+  474  cd..
+  475  lw
+  476  ls
+  477  cd  ..
+  478  ls
+  479  rm Help\ me,\ obi-wan...you\'re\ my\ only\ hope.
+  480  ls
+  481  git add .
+  482  git commit -m "act2 6"
+  483  cd ..
+  484  ls
+  485  l
+  486  ls
+  487  cd .. re
+  488  cd rebellion
+  489  ls
+  490  mv millenium_falcon death_star
+  491  pwd
+  492  ls
+  493  cd death_star
+  494  ls
+  495  git revert 4a6ae22
+  496  ls
+  497  pwd
+  498  ls
+  499  rm -r General_
+  500  ld
+  501  ls
+  502  cd G
+  503  cd General-Assembly
+  504  ls
+  505  rm - r star_wars
+  506  ls
+  507  rm -r star_wars
+  508  ls
+  509  cd star_wars
+  510  ls
+  511  code .
+  512  cd star_wars_lab
+  513  code .
+  514  cd ~
+  515  ls
+  516  cd General-Assembly
+  517  ls
+  518  mkdir star_wars_lab
+  519  ls
+  520  cd star_wars_lab
+  521  git clone https://github.com/Signal-flow12/Star_Wars.git
+  522  code .
+  523  ls
+  524  cd Star_Wars
+  525  ls
+  526  cd star_wars
+  527  ls
+  528  cd empire
+  529  ls
+  530  pwd
+  531  touch emperor_palpatine.txt
+  532  git add .
+  533  git commin -m "act1 5"
+  534  git commit -m "act1 5"
+  535  pwd
+  536  mkdir  death_star
+  537  git add .
+  538  git commit -m "act1 6"
+  539  ls
+  540  mv  darth_vader.txt death_star
+  541  git add .
+  542  git commit -m "act1 7"
+  543  ls
+  544  cd ..
+  545  ls
+  546  cd ..
+  547  ls
+  548  cd star_wars
+  549  ls
+  550  cd empire
+  551  ls
+  552  cd ..
+  553  ls 
+  554  cd empire
+  555  ls
+  556  echo 'Help me, Obi-Wan…You’re my only hope.' princess_leia.txt
+  557  ls
+  558  echo 'Help me, Obi-Wan…You’re my only hope.' > princess_leia.txt
+  559  git add .
+  560  git commit -m "act 1"
+  561  ls
+  562  pwd
+  563  touch obi_wan.txt
+  564  ls
+  565  touch luke_skywalker.txt
+  566  pwwd
+  567  pwd
+  568  mkdir millenium_falcon
+  569  ls
+  570  cd millenium_falcon
+  571  touch han_solo.txt chewbacca.txt
+  572  ls
+  573  cd ..
+  574  ls
+  575  mv obi_wan.txt millenium_falcon
+  576  mv luke_skywalker.txt
+  577  ls
+  578  mv luke_skywalker.txt millenium_falcon
+  579  mv princess_leia.txt millenium_falcon
+  580  ls
+  581  mv millenium_falcon death_star
+  582  ls
+  583  git add cd ..
+  584  cd ..
+  585  ls
+  586  cd ..
+  587  ls
+  588  cd star_wars
+  589  ls
+  590  mkdir rebellion
+  591  ls
+  592  git add .
+  593  git commit -m "act 2"
+  594  ls
+  595  cd empire
+  596  ls
+  597  cd death_star
+  598  ls
+  599  pwd
+  600  cd ..
+  601  ls
+  602  mv /Star_Wars/star_wars/empire/death_star/* death_star
+  603  mv /Star_Wars/star_wars/empire/death_star/millenium_falcon/* death_star
+  604  mv /millenium_falcon* death_star
+  605  ls
+  606  cd death
+  607  cd death_star
+  608  ls
+  609  mv millenium_falcon/* /death_star/
+  610  ls
+  611  cd ..
+  612  ls
+  613  death_star
+  614  pwd
+  615  cd ..
+  616  ls
+  617  cd death_star
+  618  ls
+  619  cd millenium_falcon
+  620  ls
+  621  cd ..
+  622  mv millenium_falcon/* /Star_Wars/star_wars/empire/death_star
+  623  cd ..
+  624  ls
+  625  mv /death_star/millenmium_falcon/* death_star 
+  626  ls
+  627  cd death_star
+  628  ls
+  629  mv millenium_falcon/* /Users/thomas_craven/General-Assembly/star_wars_lab/Star_Wars/star_wars/empire/death_star
+  630  ls
+  631  cd ..
+  632  ls
+  633  cd death_star
+  634  ls
+  635  rm obi_wan.txt
+  636  ls
+  637  mv chewbacca.txt millenium_falcon
+  638  mv han_solo.txt millenium_falcon
+  639  mv luke_skywalker.txt millenium_falcon
+  640  mv princess_leia.txt millenium_falcon
+  641  ls
+  642  mv millenium_falcon /Users/thomas_craven/General-Assembly/star_wars_lab/Star_Wars/star_wars/rebellion 
+  643  ls
+  644  mv darth_vader.txt /Users/thomas_craven/General-Assembly/star_wars_lab/Star_Wars/star_wars/empire
+  645  cd ..
+  646  ls
+  647  cd ..
+  648  ls
+  649  cd empire
+  650  ls
+  651  rm -r death_star
+  652  git add .
+  653  git add commit -m "I beat the starwars game\n"
+  654  git add -m "act3"
+  655  git commit -m "act3 complete"
