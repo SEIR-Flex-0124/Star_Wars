@@ -1,3 +1,4 @@
+## there was some history leaking outside of this project, I start this project here!
   143  git clone https://github.com/uriapete/Star_Wars.git
   144  ls
   145  cd Star_Wars
