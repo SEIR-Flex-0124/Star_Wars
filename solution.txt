@@ -1,0 +1,174 @@
+{23-01-27 19:58}Allisons-MacBook-Pro:~ allisonwolter% cd Downloads/General\ Assembly/Unit\ 1/Deliverables 
+{23-01-27 19:58}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables allisonwolter% git clone https://github.com/awolter27/Star_Wars
+Cloning into 'Star_Wars'...
+remote: Enumerating objects: 18, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 18 (delta 4), reused 2 (delta 1), pack-reused 5
+Receiving objects: 100% (18/18), 5.09 KiB | 5.09 MiB/s, done.
+Resolving deltas: 100% (4/4), done.
+{23-01-27 19:58}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables allisonwolter% ls
+Star_Wars
+{23-01-27 19:59}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables allisonwolter% cd Star_Wars && code .
+{23-01-27 20:00}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/Star_Wars@master allisonwolter% 
+{23-01-27 21:20}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/Star_Wars@master allisonwolter% 
+{23-01-27 20:00}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables allisonwolter% cd star_wars
+{23-01-27 20:01}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master allisonwolter% ls
+README.md    act1.sh      act2.sh      act3.sh      notes.txt    solution.txt star_wars
+{23-01-27 20:01}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master allisonwolter% cd star_wars
+{23-01-27 20:01}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars@master allisonwolter% ls
+empire
+{23-01-27 20:01}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars@master allisonwolter% mkdir rebellion
+{23-01-27 20:01}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars@master allisonwolter% ls
+empire    rebellion
+{23-01-27 20:01}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars@master allisonwolter% cd empire
+{23-01-27 20:03}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master allisonwolter% ls
+darth_vader.txt
+{23-01-27 20:03}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master allisonwolter% touch emperor_palpatine.txt 
+{23-01-27 20:07}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% ls
+darth_vader.txt       emperor_palpatine.txt
+{23-01-27 20:07}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% mkdir death_star
+{23-01-27 20:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% ls 
+darth_vader.txt       death_star            emperor_palpatine.txt
+{23-01-27 20:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% mv darth_vader.txt death_star/
+{23-01-27 20:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% ls
+death_star            emperor_palpatine.txt
+{23-01-27 20:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% cd death_star
+{23-01-27 20:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% ls
+darth_vader.txt
+{23-01-27 20:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% git add .
+{23-01-27 20:10}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% git commit -m "act 1 steps 1-7" 
+[master 8806ed6] act 1 steps 1-7
+ 1 file changed, 1 insertion(+)
+ create mode 100644 star_wars/empire/death_star/darth_vader.txt
+{23-01-27 20:11}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../../act1.sh
+        deleted:    ../darth_vader.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../emperor_palpatine.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+{23-01-27 20:13}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% cd ../../../
+23-01-27 20:15}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master✗✗✗✗✗✗ allisonwolter% git add .
+{23-01-27 20:15}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master✗✗✗✗✗✗ allisonwolter% git commit -m "act 1 steps 1-7"  
+[master abbf60b] act 1 steps 1-7
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+ delete mode 100644 star_wars/empire/darth_vader.txt
+ create mode 100644 star_wars/empire/emperor_palpatine.txt
+{23-01-27 20:15}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master allisonwolter% git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+{23-01-27 20:15}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master allisonwolter% cd star_wars/rebellion
+{23-01-27 20:17}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master allisonwolter% touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt  
+{23-01-27 20:20}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+princess_leia.txt
+{23-01-27 20:21}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% touch obi_wan.txt
+{23-01-27 20:21}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+obi_wan.txt       princess_leia.txt
+{23-01-27 20:21}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% touch luke_skywalker.txt
+{23-01-27 20:22}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+luke_skywalker.txt obi_wan.txt        princess_leia.txt
+{23-01-27 20:22}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% mkdir millenium_falcon
+{23-01-27 20:22}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+{23-01-27 20:22}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% cd millenium_falcon 
+{23-01-27 20:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% touch han_solo.txt chewbacca.txt
+{23-01-27 20:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% ls
+chewbacca.txt han_solo.txt
+{23-01-27 20:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% cd ../  
+{23-01-27 20:24}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% mv luke_skywalker.txt millenium_falcon/
+{23-01-27 20:25}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+millenium_falcon  obi_wan.txt       princess_leia.txt
+{23-01-27 20:25}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% mv princess_leia.txt millenium_falcon/
+{23-01-27 20:26}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+millenium_falcon obi_wan.txt
+{23-01-27 20:26}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% mv obi_wan.txt millenium_falcon/
+{23-01-27 20:27}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+millenium_falcon
+{23-01-27 20:27}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% cd millenium_falcon
+{23-01-27 20:27}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+{23-01-27 20:27}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% cd ../
+{23-01-27 20:27}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% mv millenium_falcon ../empire/death_star/
+{23-01-27 20:28}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% cd ../empire/death_star && ls
+darth_vader.txt  millenium_falcon
+{23-01-27 20:29}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% cd ../../
+{23-01-27 20:29}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars@master✗✗✗✗✗✗ allisonwolter% cd ../
+{23-01-27 20:29}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master✗✗✗✗✗✗ allisonwolter% git add .
+{23-01-27 20:29}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master✗✗✗✗✗✗ allisonwolter% git commit -m "act 2 steps 1-7"
+[master 8c221b7] act 2 steps 1-7
+ 6 files changed, 13 insertions(+), 6 deletions(-)
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/han_solo.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ create mode 100644 star_wars/empire/death_star/millenium_falcon/princess_leia.txt
+{23-01-27 20:29}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master allisonwolter% git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+{23-01-27 20:29}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master allisonwolter% cd star_wars/empire
+{23-01-27 21:14}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master allisonwolter% mv death_star/millenium_falcon/* death_star/
+{23-01-27 21:36}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% cd death_star 
+{23-01-27 21:51}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% ls
+chewbacca.txt      darth_vader.txt    han_solo.txt       luke_skywalker.txt millenium_falcon   obi_wan.txt        princess_leia.txt
+{23-01-27 21:51}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% cd millenium_falcon 
+{23-01-27 21:53}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% ../       
+{23-01-27 21:54}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% rm obi_wan.txt 
+{23-01-27 21:54}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% ls
+chewbacca.txt      darth_vader.txt    han_solo.txt       luke_skywalker.txt millenium_falcon   princess_leia.txt
+{23-01-27 21:54}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% cd ../
+{23-01-27 22:01}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% cd death_star 
+{23-01-27 22:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv chewbacca.txt millenium_falcon/
+{23-01-27 22:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv han_solo.txt millenium_falcon 
+{23-01-27 22:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv luke_skywalker.txt millenium_falcon 
+{23-01-27 22:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv princess_leia.txt mil
+{23-01-27 22:08}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv mil princess_leia.txt
+{23-01-27 22:09}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv princess_leia.txt millenium_falcon 
+{23-01-27 22:09}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% cd millenium_falcon 
+{23-01-27 22:09}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt princess_leia.txt
+{23-01-27 22:09}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star/millenium_falcon@master✗✗✗✗✗✗ allisonwolter% cd ../
+{23-01-27 22:18}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv millenium_falcon ../../
+{23-01-27 22:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% cd ../../    
+{23-01-27 22:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars@master✗✗✗✗✗✗ allisonwolter% mv millenium_falcon rebellion 
+{23-01-27 22:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars@master✗✗✗✗✗✗ allisonwolter% cd rebellion
+{23-01-27 22:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% ls
+millenium_falcon
+{23-01-27 22:23}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/rebellion@master✗✗✗✗✗✗ allisonwolter% cd ../empire/death_star 
+{23-01-27 22:25}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% mv darth_vader.txt ../
+{23-01-27 22:26}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% ls
+{23-01-27 22:26}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire/death_star@master✗✗✗✗✗✗ allisonwolter% cd ..
+{23-01-27 22:26}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% ls
+darth_vader.txt       death_star            emperor_palpatine.txt
+{23-01-27 22:26}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars/star_wars/empire@master✗✗✗✗✗✗ allisonwolter% cd ../../
+{23-01-27 22:28}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master✗✗✗✗✗✗ allisonwolter% git add .
+{23-01-27 22:28}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master✗✗✗✗✗✗ allisonwolter% git commit -m "act 1 steps 1-6"
+[master b0aefe7] act 1 steps 1-6
+ 7 files changed, 12 insertions(+), 5 deletions(-)
+ rename star_wars/empire/{death_star => }/darth_vader.txt (100%)
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/chewbacca.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/han_solo.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/luke_skywalker.txt (100%)
+ rename star_wars/{empire/death_star => rebellion}/millenium_falcon/princess_leia.txt (100%)
+{23-01-27 22:28}Allisons-MacBook-Pro:~/Downloads/General Assembly/Unit 1/Deliverables/star_wars@master allisonwolter% git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
