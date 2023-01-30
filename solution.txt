@@ -1,0 +1,250 @@
+  143  npm -v
+  144  npm i -g nodemon
+  145  node -v
+  146  npm -v
+  147  brew postinstall node
+  148  sudo npm i -g nodemon 
+  149  node -v
+  150  npm -v
+  151  npm i -g nodemon
+  152  sudo npm i -g nodemon 
+  153  git clone <https://github.com/larrytu327/Star_Wars\>
+  154  git clone <https://github.com/larrytu327/Star_Wars.git\>
+  155  gh repo clone larrytu327/Star_Wars
+  156  ls
+  157  cd Star_Wars
+  158  code .
+  159  ../
+  160  ls
+  161  cd downloads
+  162  ls
+  163  cd star_wars
+  164  ../
+  165  ls
+  166  cd star_wars
+  167  ../
+  168  ls
+  169  cd star_wars
+  170  code .
+  171  ls
+  172  ../
+  173  ls
+  174  cd star_wars
+  175  ls
+  176  cd star_wars
+  177  ls
+  178  mkdir rebellion empire
+  179  ls
+  180  cd rebellion
+  181  ../
+  182  cd empire
+  183  touch darth_vader.txt
+  184  ls
+  185  echo "...heavy breathing..." >> darth_vader.txt
+  186  ls
+  187  touch emperor_palpatine.txt
+  188  mkdir death_star
+  189  mv darth_vader.txt ~/death_star
+  190  ls
+  191  cd death_star
+  192  ls
+  193  ../
+  194  ls
+  195  ../
+  196  ls
+  197  cd empire
+  198  ls
+  199  cd death_star
+  200  ls
+  201  ../
+  202  ls
+  203  ../
+  204  ls
+  205  ../
+  206  ls
+  207  ../
+  208  ls
+  209  cd death_star
+  210  rm death_star
+  211  ls
+  212  cd star_wars
+  213  ls
+  214  cd star_wars
+  215  ls
+  216  cd empire
+  217  ls
+  218  touch darth_vader.txt
+  219  ls
+  220  echo "...heavy breathing..." >> darth_vader.txt
+  221  mv darth_vader.txt ~/empire/death_star
+  222  ls
+  223  mv darth_vader.txt ~/Star_Wars/star_wars/empire/death_star
+  224  ls
+  225  cd death_star
+  226  ls
+  227  git add .
+  228  git commit -m "completed act 1"
+  229  ls
+  230  ../
+  231  ls
+  232  ../
+  233  ls
+  234  cd rebellion
+  235  ls
+  236  cd star_wars
+  237  ls
+  238  cd rebellion
+  239  ls
+  240  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." >> star_wars/rebellion/princess_leia.txt
+  241  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." >> /Star_Wars/star_wars/rebellion/princess_leia.txt
+  242  ls
+  243  cat princess_leia.txt
+  244  ls
+  245  rm pricess_leia.txt
+  246  rm princess_leia.txt
+  247  ls
+  248  touch princess_leia.txt echo "Help me, Obi-Wan...You're my only hope."
+  249  ls
+  250  rm princess_leia.txt
+  251  ls
+  252  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." >> /princess_leia.txt
+  253  ls
+  254  rm princess_leia.txt
+  255  ls
+  256  touch princess_leia.txt
+  257  ls
+  258  echo "Help me" >> /princess_leia.txt
+  259  echo "Help me" >> star_wars/rebellion/princess_leia.txt
+  260  echo "Help me" >> Star_Wars/star_wars/rebellion/princess_leia.txt
+  261  ls
+  262  echo "Help me" >> princess.leia.txt
+  263  ls
+  264  rm pricess.leia.txt princess_leia.txt
+  265  ls
+  266  rm princess.leia.txt
+  267  ls
+  268  echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  269  ls
+  270  touch obi_wan.txt
+  271  touch luke_skywalker.txt
+  272  mkdir millenium_falcon
+  273  cd millenium_falcon
+  274  touch han_solo.txt chewbacca.txt
+  275  ls
+  276  ../
+  277  ls
+  278  mv luke_skywalker.txt obi_wan.txt princess_leia.txt >> /millenium_falcon
+  279  ls
+  280  mv luke_skywalker.txt obi_wan.txt princess_leia.txt >> millenium_falcon
+  281  mv ~/luke_skywalker.txt ~/millenium_falcon
+  282  mv ~/Star_Wars/star_wars/rebellion/luke_skywalker.txt ~/Star_Wars/star_wars/rebellion/millenium_falcon/luke_skywalker.txt
+  283  ls
+  284  mv ~/Star_Wars/star_wars/rebellion/obi_wan.txt ~/Star_Wars/star_wars/rebellion/millenium_falcon/obi_wan.txt
+  285  ls
+  286  mv ~/Star_Wars/star_wars/rebellion/princess_leia.txt ~/Star_Wars/star_wars/rebellion/millenium_falcon/princess_leia.txt
+  287  ls
+  288  mv ~/Star_Wars/star_wars/rebellion/millenium_falcon ~/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  289  ls
+  290  ../
+  291  git add .
+  292  git commit -m "Act 2 completed"
+  293  "node -v"
+  294  code .
+  295  node --version
+  296  code .
+  297  ls
+  298  cd documents
+  299  ls
+  300  cd myfolder
+  301  ls
+  302  cd GA SEI
+  303  cd GA_SEI
+  304  ls
+  305  cd GA SEI
+  306  cd "GA SEI"
+  307  mkdir js-intro
+  308  cd js-intro
+  309  touch intro.js
+  310  code .
+  311  node intro.js
+  312  ls
+  313  node intro.js
+  314  node -v
+  315  node intro.js
+  316  node --v
+  317  node intro.js
+  318  ../
+  319  mkdir arrays
+  320  cd arrays
+  321  touch arrays.js
+  322  code .
+  323  node arrays.js
+  324  brew --prefix
+  325  echo `export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"` >> .zprofile
+  326  code .
+  327  brew --prefix
+  328  echo 'export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"' >> ~/.zprofile
+  329  brew --prefix
+  330  echo 'export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"' >> ~/.zprofile
+  331  brew --prefix
+  332  echo 'export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"' >> ~/.zprofile
+  333  brew --prefix
+  334  open ~/.zprofile
+  335  gh repo clone larrytu327/arrays_lab
+  336  code .
+  337  ls
+  338  cd arrays_lab
+  339  code .
+  340  node arrays.js
+  341  code .
+  342  node arrays.js
+  343  git add .
+  344  git commit -m "Everything done except for question 14"
+  345  ls
+  346  cd Star_Wars
+  347  ls
+  348  code .
+  349  ls
+  350  cd empire
+  351  ls
+  352  cd death_star
+  353  ls
+  354  cd millenium_falcon
+  355  ls
+  356  mv ~/Star_Wars/star_wars/empire/death_star/millenium_falcon/*.txt ~/Star_Wars/star_wars/empire/death_star
+  357  ls
+  358  ../
+  359  ls
+  360  rm obi_wan.txt
+  361  ls
+  362  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/Star_Wars/star_wars/empire/death_star/millenium_falcon
+  363  ls
+  364  mv millenium_falcon ~/Star_Wars/star
+  365  ls
+  366  ../
+  367  ls
+  368  ../
+  369  ls
+  370  cd star
+  371  ls
+  372  ../
+  373  ls
+  374  mv star ~/Star_Wars/star_wars/rebellion/millenium_falcon
+  375  ls
+  376  cd star_wars
+  377  ls
+  378  cd rebellion
+  379  ls
+  380  cd millenium_falcon
+  381  ls
+  382  mv ~/Star_Wars/star_wars/empire/death_star/darth_vader.txt ~/Star_Wars/star_wars/empire
+  383  ../
+  384  ls
+  385  cd empire
+  386  ls
+  387  rm death_star
+  388  ls
+  389  rm -R death_star
+  390  ls
+  391  git add .
+  392  git commit -m "Act 3 completed"
