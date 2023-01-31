@@ -1,0 +1,234 @@
+darontillman@DaRons-Air Star_Wars-4 % ls
+README.md       act1.sh         act2.sh         act3.sh         notes.txt       solution.txt    star_wars
+darontillman@DaRons-Air Star_Wars-4 % cd star_wars
+darontillman@DaRons-Air star_wars % ls
+empire
+darontillman@DaRons-Air star_wars % cd empire
+darontillman@DaRons-Air empire % ls
+darth_vader.txt
+darontillman@DaRons-Air empire % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire
+darontillman@DaRons-Air star_wars % rm -R empire
+darontillman@DaRons-Air star_wars % ls
+darontillman@DaRons-Air star_wars % mkdir empire && mkdir rebellion
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % touch star_wars/empire/darth_vader.txt
+touch: star_wars/empire/darth_vader.txt: No such file or directory
+darontillman@DaRons-Air star_wars % cd empire
+darontillman@DaRons-Air empire % touch darth_vader.txt
+darontillman@DaRons-Air empire % cd darth_vader.txt 
+cd: not a directory: darth_vader.txt
+darontillman@DaRons-Air empire % ls
+darth_vader.txt
+darontillman@DaRons-Air empire % echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+zsh: no such file or directory: star_wars/empire/darth_vader.txt
+darontillman@DaRons-Air empire % echo "...heavy breathing..." >> /darth_vader.txt  
+zsh: read-only file system: /darth_vader.txt
+darontillman@DaRons-Air empire % echo "...heavy breathing..." >> ~ /darth_vader.txt 
+zsh: is a directory: /Users/darontillman
+darontillman@DaRons-Air empire % echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+zsh: no such file or directory: star_wars/empire/darth_vader.txt
+darontillman@DaRons-Air empire % cd ..
+darontillman@DaRons-Air star_wars % echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+zsh: no such file or directory: star_wars/empire/darth_vader.txt
+darontillman@DaRons-Air star_wars % cd ..
+darontillman@DaRons-Air Star_Wars-4 % echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+darontillman@DaRons-Air Star_Wars-4 % ls
+README.md       act1.sh         act2.sh         act3.sh         notes.txt       solution.txt    star_wars
+darontillman@DaRons-Air Star_Wars-4 % cd star_wars
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd empire
+darontillman@DaRons-Air empire % ls
+darth_vader.txt
+darontillman@DaRons-Air empire % touch emperor_palpatine.txt
+darontillman@DaRons-Air empire % ls
+darth_vader.txt         emperor_palpatine.txt
+darontillman@DaRons-Air empire % mkdir death_star
+darontillman@DaRons-Air empire % la
+zsh: command not found: la
+darontillman@DaRons-Air empire % ls
+darth_vader.txt         death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % mv darth_vader.txt death_star 
+darontillman@DaRons-Air empire % ls
+death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % cd death_star 
+darontillman@DaRons-Air death_star % ls
+darth_vader.txt
+darontillman@DaRons-Air death_star % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+darontillman@DaRons-Air death_star % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../../act1.sh
+        deleted:    ../darth_vader.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+        ../emperor_palpatine.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+darontillman@DaRons-Air death_star % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../../act1.sh
+        deleted:    ../darth_vader.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+        ../emperor_palpatine.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+darontillman@DaRons-Air death_star % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+darontillman@DaRons-Air death_star % git add .
+darontillman@DaRons-Air death_star % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   darth_vader.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../../act1.sh
+        deleted:    ../darth_vader.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../emperor_palpatine.txt
+
+darontillman@DaRons-Air death_star % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   darth_vader.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../../act1.sh
+        deleted:    ../darth_vader.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../emperor_palpatine.txt
+
+darontillman@DaRons-Air death_star % git ad .
+git: 'ad' is not a git command. See 'git --help'.
+
+The most similar commands are
+        add
+        am
+darontillman@DaRons-Air death_star % git add .
+darontillman@DaRons-Air death_star % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   darth_vader.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../../../act1.sh
+        deleted:    ../darth_vader.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../emperor_palpatine.txt
+
+darontillman@DaRons-Air death_star % cd ..
+darontillman@DaRons-Air empire % cd ..
+darontillman@DaRons-Air star_wars % cd ..
+darontillman@DaRons-Air Star_Wars-4 % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   star_wars/empire/death_star/darth_vader.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   act1.sh
+        deleted:    star_wars/empire/darth_vader.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        star_wars/empire/emperor_palpatine.txt
+
+darontillman@DaRons-Air Star_Wars-4 % git add .
+darontillman@DaRons-Air Star_Wars-4 % git status    
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   act1.sh
+        renamed:    star_wars/empire/darth_vader.txt -> star_wars/empire/death_star/darth_vader.txt
+        new file:   star_wars/empire/emperor_palpatine.txt
+
+darontillman@DaRons-Air Star_Wars-4 % git commit -m "Act one complete"
+[master 0a2a48b] Act one complete
+ 3 files changed, 5 insertions(+), 3 deletions(-)
+ rename star_wars/empire/{ => death_star}/darth_vader.txt (100%)
+ create mode 100644 star_wars/empire/emperor_palpatine.txt
+darontillman@DaRons-Air Star_Wars-4 % git log
+commit 0a2a48be02abc0f3349f9c545a4b812240e74ae1 (HEAD -> master)
+Author: Ronnie95 <t_daron@yahoo.com>
+Date:   Tue Jan 31 16:58:40 2023 -0500
+
+    Act one complete
+
+commit c44df582f3814b2c03c78431854b989d89814905 (origin/master, origin/HEAD)
+Merge: b1b8753 8b52566
+Author: Eric Fithian <21210833+EricFithian@users.noreply.github.com>
+Date:   Mon Nov 14 14:41:25 2022 -0500
+
+    Merge pull request #1 from EricFithian/master
+    
+    Eric Fithian - Star Wars hw
+
+commit 8b525668968c08724589a449d014a9b878b1a5c6
+Author: EricFithian <ef2413@columbia.edu>
+Date:   Mon Nov 14 14:39:39 2022 -0500
+
+    Updated my notes and did some of the commands
+
+commit c42c9bd10b4844887e4fb710ac06f2be392b98fe
+Author: EricFithian <ef2413@columbia.edu>
+Date:   Mon Nov 14 14:25:42 2022 -0500
+
+    Added most of my notes
+
+commit b1b8753fb4d59269ecedcee279035f0fe1e584a8
+Author: Troy Swayzee <tswayzee@Troys-MacBook-Pro.local>
+Date:   Thu Mar 17 15:56:43 2022 -0700
+
+    star wars here
+darontillman@DaRons-Air Star_Wars-4 % 
