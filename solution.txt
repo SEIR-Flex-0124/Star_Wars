@@ -1,0 +1,301 @@
+//I had an authentication issue, so I had to clear terminal after doing the first half. Here's the terminal I have recorded:
+➜  millenium_falcon git:(master) cd ..
+➜  rebellion git:(master) ls   
+millenium_falcon
+➜  rebellion git:(master) cd ..               
+➜  star_wars git:(master) ls
+empire    rebellion
+➜  star_wars git:(master) mv millenium falcon death_star
+mv: death_star is not a directory
+➜  star_wars git:(master) mv millenium_falcon* death_star
+zsh: no matches found: millenium_falcon*
+➜  star_wars git:(master) mv millenium_falcon/* death_star
+zsh: no matches found: millenium_falcon/*
+➜  star_wars git:(master) cp -R ~/star_wars/rebellion/millenium_falcon /star_wars/empire/death_star
+cp: /Users/kelliswett/star_wars/rebellion/millenium_falcon: No such file or directory
+➜  star_wars git:(master) ✗ cp -R ~/GADocs/Star_Wars/star_wars/rebellion/millenium_falcon /GADocs/Star_Wars/star_wars/empire/death_star
+cp: /GADocs/Star_Wars/star_wars/empire/death_star: No such file or directory
+cp: /Users/kelliswett/GADocs/Star_Wars/star_wars/rebellion/millenium_falcon: unable to copy extended attributes to /GADocs/Star_Wars/star_wars/empire/death_star: No such file or directory
+cp: /GADocs/Star_Wars/star_wars/empire/death_star/han_solo.txt: No such file or directory
+cp: /GADocs/Star_Wars/star_wars/empire/death_star/chewbacca.txt: No such file or directory
+cp: /GADocs/Star_Wars/star_wars/empire/death_star/luke_skywalker.txt: No such file or directory
+cp: /GADocs/Star_Wars/star_wars/empire/death_star/obi_wan.txt: No such file or directory
+cp: /GADocs/Star_Wars/star_wars/empire/death_star/princess_leia.txt: No such file or directory
+➜  star_wars git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      git          notes.txt    solution.txt star_wars
+➜  Star_Wars git:(master) ✗ cd star_wars
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git commit -m "updated files"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../act1.sh
+        modified:   ../act2.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  star_wars git:(master) ✗ git push origin master
+Everything up-to-date
+➜  star_wars git:(master) ✗ cp -R ~/GADocs/Star_Wars/star_wars/millenium_falcon GADocs/Star_Wars/star_wars/empire/death_star           
+cp: /Users/kelliswett/GADocs/Star_Wars/star_wars/millenium_falcon: No such file or directory
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ cd..
+zsh: command not found: cd..
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ mv millenium_falcon death_star
+mv: rename millenium_falcon to death_star: No such file or directory
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ cd
+➜  ~ cd star_wars
+cd: no such file or directory: star_wars
+➜  ~ ls
+Course    Desktop   Documents Downloads GA        GADocs    Library   Movies    Music     Pictures  Public    git
+➜  ~ cd GADocs
+➜  GADocs ls
+Star_Wars  arrays_lab js-intro   test
+➜  GADocs cd Star_Wars
+➜  Star_Wars git:(master) ✗ cd star_wars
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ mv millenium_falcon death_star
+mv: rename millenium_falcon to death_star: No such file or directory
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd .. 
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ mv millenium_falcon ../
+mv: rename millenium_falcon to ../millenium_falcon: No such file or directory
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ mv millenium_falcon ../
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+empire           millenium_falcon rebellion
+➜  star_wars git:(master) ✗ mv millenium_falcon death_star
+➜  star_wars git:(master) ✗ ls
+death_star empire     rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+death_star empire     rebellion
+➜  star_wars git:(master) ✗ mv death_star millenium_falcon
+➜  star_wars git:(master) ✗ ls
+empire           millenium_falcon rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+empire           millenium_falcon rebellion
+➜  star_wars git:(master) ✗ mv millenium_falcon empire
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt millenium_falcon
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt
+➜  death_star git:(master) ✗ mv ../millenium_falcon ./
+➜  death_star git:(master) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git commit -m "finished act2"
+[master a1a6781] finished act2
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ rename star_wars/{rebellion => empire/death_star}/millenium_falcon/chewbacca.txt (100%)
+ rename star_wars/{rebellion => empire/death_star}/millenium_falcon/han_solo.txt (100%)
+ rename star_wars/{rebellion => empire/death_star}/millenium_falcon/luke_skywalker.txt (100%)
+ rename star_wars/{rebellion => empire/death_star}/millenium_falcon/obi_wan.txt (100%)
+ rename star_wars/{rebellion => empire/death_star}/millenium_falcon/princess_leia.txt (100%)
+➜  star_wars git:(master) ✗ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 583 bytes | 583.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:kellims/Star_Wars.git
+   33148fc..a1a6781  master -> master
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ ls
+death_star            emperor_palpatine.txt
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(master) ✗ mv millenium_falcon* death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt death_star
+➜  death_star git:(master) ✗ mv death_star millenium_falcon
+➜  death_star git:(master) ✗ ls
+darth_vader.txt  millenium_falcon
+➜  death_star git:(master) ✗ cd millenium_falcon
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv millenium_falcon/* death_star
+zsh: no matches found: millenium_falcon/*
+➜  millenium_falcon git:(master) ✗ mv /death_star/millenium_falcon/* /death_star/
+zsh: no matches found: /death_star/millenium_falcon/*
+➜  millenium_falcon git:(master) ✗ ls
+chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt
+➜  millenium_falcon git:(master) ✗ mv  -v ~/millenium_falcon/* ~/death_star/
+zsh: no matches found: /Users/kelliswett/millenium_falcon/*
+➜  millenium_falcon git:(master) ✗ cd ..
+➜  death_star git:(master) ✗ mv  -v ~/millenium_falcon/* ~/death_star/
+zsh: no matches found: /Users/kelliswett/millenium_falcon/*
+➜  death_star git:(master) ✗ mv  -v ~ /death_star/millenium_falcon/* ~/death_star/
+zsh: no matches found: /death_star/millenium_falcon/*
+➜  death_star git:(master) ✗ mv  -v ~ /Star_wars/star_wars/empire/death_star/millenium_falcon/* ~/death_star/
+zsh: no matches found: /Star_wars/star_wars/empire/death_star/millenium_falcon/*
+➜  death_star git:(master) ✗ mv  -v ~ /GADocs/Star_Wars/star_wars/empire/death_star/millenium_falcon/* ~/death_star/
+zsh: no matches found: /GADocs/Star_Wars/star_wars/empire/death_star/millenium_falcon/*
+➜  death_star git:(master) ✗ mv millenium_falcon/* .
+➜  death_star git:(master) ✗ rm obi_wan.txt
+➜  death_star git:(master) ✗ mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/ millenium_falcon
+mv: rename /Users/kelliswett/ to millenium_falcon/kelliswett/: Operation not permitted
+➜  death_star git:(master) ✗ mv millenium_falcon ../
+➜  death_star git:(master) ✗ mv millenium_falcon ../
+mv: millenium_falcon: No such file or directory
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ mv millenium_falcon ../
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ mv millenium_falcon rebellion
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd rebellion
+➜  rebellion git:(master) ✗ ls
+millenium_falcon
+➜  rebellion git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ ls
+empire    rebellion
+➜  star_wars git:(master) ✗ cd empire
+➜  empire git:(master) ✗ mv darth_vader.txt empire
+mv: rename darth_vader.txt to empire: No such file or directory
+➜  empire git:(master) ✗ cd death_star
+➜  death_star git:(master) ✗ ls
+darth_vader.txt
+➜  death_star git:(master) ✗ mv darth_vader empire
+mv: rename darth_vader to empire: No such file or directory
+➜  death_star git:(master) ✗ mv darth_vader.txt empire
+➜  death_star git:(master) ✗ ls
+empire
+➜  death_star git:(master) ✗ mv empire darth_vader.txt
+➜  death_star git:(master) ✗ ls
+darth_vader.txt
+➜  death_star git:(master) ✗ mv darth_vader.txt ../
+➜  death_star git:(master) ✗ rm -rfdeath_star
+rm: illegal option -- e
+usage: rm [-f | -i] [-dIPRrvWx] file ...
+       unlink [--] file
+➜  death_star git:(master) ✗ rm -rf death_star
+➜  death_star git:(master) ✗ ls
+➜  death_star git:(master) ✗ cd ..
+➜  empire git:(master) ✗ rm -rf death_star
+➜  empire git:(master) ✗ ls
+darth_vader.txt       emperor_palpatine.txt
+➜  empire git:(master) ✗ git add .
+➜  empire git:(master) ✗ git commit -m "finished!"
+dquote> 
+dquote> cd ..
+dquote> 
+➜  empire git:(master) ✗ git add .
+➜  empire git:(master) ✗ git commit -m "finished act3"
+[master 36bc728] finished act3
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ rename star_wars/empire/{death_star => }/darth_vader.txt (100%)
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/chewbacca.txt
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/han_solo.txt
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/luke_skywalker.txt
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/obi_wan.txt
+ delete mode 100644 star_wars/empire/death_star/millenium_falcon/princess_leia.txt
+➜  empire git:(master) ✗ git push origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 413 bytes | 413.00 KiB/s, done.
+Total 5 (delta 1), reused 1 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:kellims/Star_Wars.git
+   a1a6781..36bc728  master -> master
+➜  empire git:(master) ✗ cd ..
+➜  star_wars git:(master) ✗ git add .
+➜  star_wars git:(master) ✗ git commit -m "finished act 3"
+[master 06a975c] finished act 3
+ 4 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 star_wars/rebellion/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/han_solo.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/princess_leia.txt
+➜  star_wars git:(master) ✗ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 470 bytes | 470.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:kellims/Star_Wars.git
+   36bc728..06a975c  master -> master
+➜  star_wars git:(master) ✗ cd ..
+➜  Star_Wars git:(master) ✗ ls
+README.md    act1.sh      act2.sh      act3.sh      git          notes.txt    solution.txt star_wars
+➜  Star_Wars git:(master) ✗ git add .
+➜  Star_Wars git:(master) ✗ git commit -m "finished act 3.  StarWars"
+[master d3201ef] finished act 3.  StarWars
+ 3 files changed, 22 insertions(+), 13 deletions(-)
+➜  Star_Wars git:(master) git push origin master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 975 bytes | 975.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To github.com:kellims/Star_Wars.git
+   06a975c..d3201ef  master -> master

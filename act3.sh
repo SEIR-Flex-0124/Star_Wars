@@ -5,7 +5,7 @@ death_star git:(master) ✗ mv millenium_falcon/* .
 death_star git:(master) ✗ rm obi_wan.txt
 # 3.  Our heroes have disabled the tractor beam! Move the whole crew back into the millenium_falcon!
 # Remember: darth_vader remains in the death_star and emperor_palpatine is still in the empire.
-death_star git:(master) ✗ mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/ millenium_falcon //I received an error (Operation not permitted, but it did move my files?)
+death_star git:(master) ✗ mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/ millenium_falcon //I received an error (Operation not permitted, but it did move my files?) //another solution received from peer: death_star git:(master) ✗ mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
 # 4. Move the millenium_falcon back into the rebellion directory.
 death_star git:(master) ✗ mv millenium_falcon ../
 empire git:(master) ✗ mv millenium_falcon ../
