@@ -1,5 +1,5 @@
 # 1. Inside the `star_wars/rebellion` directory, (IN ONE COMMAND) create a file called princess_leia.txt with the text "Help me, Obi-Wan…You’re my only hope."
-mkdir princess_leia.txt 
+touch princess_leia.txt //(added during walkthrough so I can know how to do command) &&echo "help me, Obi-Wan..." >> princess_leia.txt
 # 2. Create a file called obi_wan.txt in star_wars/rebellion
 touch obi_wan.txt
 # 3. Create a file in star_wars/rebellion called luke_skywalker.txt
