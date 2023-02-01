@@ -1,0 +1,552 @@
+➜  Star_Wars git:(master) history
+    1  hello?
+    2  where am i?
+    3  pwd
+    4  ls
+    5  cd Documents
+    6  ls
+    7  ls
+    8  $ls
+    9  pwd
+   10  ls
+   11  ls -a
+   12  cd ..
+   13  pwd
+   14  mkdir myfolder
+   15  ls
+   16  cd myfolder
+   17  touch index.html style.css
+   18  ls
+   19  rm style.css
+   20  ls
+   21  cd ..
+   22  pwd
+   23  ls
+   24  cd Downloads
+   25  ls
+   26  cd World
+   27  ls
+   28  cd Africa
+   29  ls -a
+   30  cd ..
+   31  cd Australia
+   32  ls -a
+   33  cd ..
+   34  cd Kenya
+   35  ls -a
+   36  cd ..
+   37  cd Asia
+   38  ls -a
+   39  cd ..
+   40  cd Europe
+   41  ls -a
+   42  cd ..
+   43  cd North_America
+   44  ls -a
+   45  cd ..
+   46  pwd
+   47  pwd
+   48  ls
+   49  cd home
+   50  ls
+   51  cd Users
+   52  ls
+   53  cd ..
+   54  pwd
+   55  pwd
+   56  ls
+   57  cd Downloads
+   58  ls -a
+   59  pwd
+   60  cd Users
+   61  ls
+   62  cd Application
+   63  cd Applications
+   64  cd ..
+   65  pwd
+   66  cd Downloads
+   67  where is Downloads
+   68  cd World
+   69  pwd
+   70  find $HOME -type d -name "Documents"
+   71  cd Users
+   72  ls
+   73  cd sunjang
+   74  ls
+   75  cd Downloads
+   76  ls
+   77  cd World
+   78  ls
+   79  cd Europe
+   80  ls
+   81  ls -a
+   82  cd ..
+   83  cd ..
+   84  cd ..
+   85  pwd
+   86  cd Downloads
+   87  ls
+   88  rm -r World
+   89  cd ..
+   90  git --version
+   91  git --version
+   92  pwd
+   93  ls
+   94  mkdir GA-blog
+   95  ls
+   96  cd GA-blog
+   97  mkdir .git/
+   98  git init
+   99  cd ..
+  100  lsa
+  101  ls
+  102  cd GA-blog
+  103  ls
+  104  ls -a
+  105  git status
+  106  touch post.txt
+  107  ls
+  108  ls -a
+  109  git status
+  110  git add post.txt
+  111  git status
+  112  git commit -m "created new poxt.txt file"
+  113  git config --global user.name "Sun Jang"
+  114  git log
+  115  cd ..
+  116  lsa
+  117  ls
+  118  mkdir GA-practice
+  119  ls
+  120  cd GA-practice
+  121  ls
+  122  ls -a
+  123  git init
+  124  ls -a
+  125  touch practice.txt
+  126  ls
+  127  ls -a
+  128  git status
+  129  git add practice.txt
+  130  git status
+  131  git add -m "just a practice"
+  132  git status
+  133  git commit -m "just a practice"
+  134  git config --global user.name "Sun Jang"
+  135  git status
+  136  git config user.name "Sun Jang"
+  137  git commit -m "just a practice"
+  138  git add practice.txt
+  139  git commit -m "practice"
+  140  git config --global.email "sunjang1009@gmail.com"
+  141  git config --global user.email "sunjang1009@gmail.com"
+  142  git status
+  143  git add practice.txt
+  144  git commit -m "practice"
+  145  git status
+  146  ls -a
+  147  git log
+  148  pwd
+  149  ls
+  150  ls -a
+  151  rm myfolder
+  152  rm -r myfolder
+  153  ls
+  154  cd Documents
+  155  mkdir myfolder
+  156  cd myfolder
+  157  touch index.html style.css
+  158  rm index.html
+  159  rm style.css
+  160  cd..
+  161  cd ..
+  162  cd ..
+  163  ls
+  164  git --version
+  165  cd GA-blog
+  166  ls -a
+  167  git init
+  168  git status
+  169  touch post2.txt
+  170  ls
+  171  git add post2.txt
+  172  git status
+  173  git commit m- "new post2 txt file"
+  174  git commit -m "new post2 txt file"
+  175  git status
+  176  ls
+  177  git log
+  178  ls -a
+  179  touch README.txt
+  180  git status
+  181  git add README.txt
+  182  git commit -m "new txt file"
+  183  git status
+  184  git log
+  185  pwd
+  186  ls
+  187  cd ~
+  188  ~ 
+  189  ~ pwd
+  190  ls
+  191  cd GA-blog
+  192  cd ~
+  193  mkdir gitOffTheHub
+  194  ls
+  195  cd gitOffTheHub
+  196  cd ..
+  197  cd gitOffTheHub
+  198  cd ..
+  199  ls
+  200  cd gitOffTheHub
+  201  ls
+  202  echo $SHELL
+  203  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  204  code . 
+  205  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  206  brew doctor
+  207  brew update
+  208  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/sunjang/.zprofile\n    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/sunjang/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"
+  209  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/sunjang/.zprofile
+  210  brew doctor
+  211  brew update
+  212  xcode-select --install
+  213  brew install git
+  214  git config --global user.name "Sunjang1009"
+  215  git config --global user.email "sunjang1009@gmail.com"
+  216  git config --global init.defaultBranch main
+  217  git config --global core.editor "code --wait"
+  218  git config --global pull.rebase false
+  219  touch ~/.gitignore_global
+  220  git config --global core.excludesfile ~/.gitignore_global
+  221  code ~/.gitignore_global
+  222  brew install gh
+  223  gh auth login
+  224  brew install node
+  225  node -v
+  226  npm -v
+  227  npm i -g nodemon
+  228  git clone https://github.com/SEIR-Flex-0124/Star_Wars.git
+  229  code .
+  230  pwd
+  231  ls
+  232  cd Star_Wars
+  233  ls
+  234  cd ~
+  235  pwd
+  236  ls
+  237  ls -a
+  238  pwd
+  239  mkdir drawers
+  240  cd drawers
+  241  mkdir socks && cd socks
+  242  touch dress.socks
+  243  cd ~
+  244  cd drawers
+  245  mkdir pjs && mkdir more-socks
+  246  cd pjs
+  247  touch warm.pjs && touch favorite.socks
+  248  ls
+  249  mv ~/drawers/pjs/favorite.socks ~/drawers/socks
+  250  ls
+  251  cd..
+  252  cd ..
+  253  ls
+  254  cd socks
+  255  ls
+  256  ls -a
+  257  mkdir ~/drawers/pjs/shorts
+  258  cd ..
+  259  ls
+  260  mv pjs/shorts ./
+  261  ls
+  262  touch plaid.pjs ~/drawers/shorts 
+  263  ls
+  264  rm plaid.pjs
+  265  ls
+  266  touch ~/drawers/shorts plaid.pjs
+  267  ls
+  268  rm plaid.pjs
+  269  ls
+  270  touch ./shorts/plaid.pjs
+  271  ls
+  272  cd shorts
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd pjs
+  277  ls
+  278  mv warm.pjs winter.pjs
+  279  ls
+  280  cd ..
+  281  mv ./shorts/plaid.pjs ./pjs/solid.pjs
+  282  ls
+  283  cd shorts
+  284  ls
+  285  cd ..
+  286  cd pjs
+  287  ls
+  288  cd ..
+  289  touch ./socks/dress.sock
+  290  rm ./socks/dress.sock ./socks/dress.socks 
+  291  cd socks
+  292  ls
+  293  touch dress.socks
+  294  ls
+  295  cd ..
+  296  mv *.socks ~/drawers
+  297  mv ./socks/*.socks ./
+  298  ls
+  299  cp *.socks ~/drawers/more-socks
+  300  pwd
+  301  ls
+  302  cd gitOffTheHub
+  303  ls
+  304  mkdir github
+  305  ls
+  306  touch app.js
+  307  node app.js
+  308  touch index.html style.css
+  309  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  310  pdw
+  311  pwd
+  312  cd Star_Wars
+  313  cd star_wars
+  314  mkdir star_wars/rebellion star_wars/empire
+  315  mkdir rebellion
+  316  mkdir empire
+  317  touch ./empire/emperor_palpatine.txt
+  318  mkdir ./empire/death_star
+  319  mv ./empire/darth_vader.txt ./empire/death_star 
+  320  echo "Help me, Obi-Wan...You're my only hope." >> ~/star_wars/star_wars/rebellion/princess_leia.txt 
+  321  touch ./rebellion/obi_wan.txt
+  322  touch ./rebellion/luke_skywalker.txt
+  323  mkdir ./rebellion/millenium_falcon
+  324  touch ./rebellion/millenium_falcon/han_solo.txt ./rebellion/millenium_falcon/chewbacca.txt
+  325  mv ./rebellion/*.txt ./rebellion/millenium_falcon
+  326  mv ./rebellion/luke_skywalker.txt ./millenium_falcon
+  327  cd rebellion
+  328  ls
+  329  cd ..
+  330  mv ./rebellion/millenium_falcon ./empire/death_star
+  331  pwd
+  332  cd Star_Wars
+  333  cd star_wars
+  334  ./empire/death_star/millenium_falcon/* ./empire/death_star
+  335  mv ./empire/death_star/millenium_falcon ./empire/death_star
+  336  mv ./empire/death_star/millenium_falcon/*.txt ./empire/death_star
+  337  rm ./empire/death_star/obi_wan.txt
+  338  pwd
+  339  cd Star_Wars
+  340  mv ./star_wars/empire/death_star/chewbacca.txt ./star_wars/empire/death_star/millenium_falcon
+  341  mv ./star_wars/empire/death_star/han_solo.txt ./star_wars/empire/death_star/millenium_falcon 
+  342  mv ./star_wars/empire/death_star/luke_skywalker.txt ./star_wars/empire/death_star/millenium_falcon 
+  343  mv ./star_wars/empire/death_star/princess_leia.txt ./star_wars/empire/death_star/millenium_falcon 
+  344  mv ./star_wars/empire/death_star/millenium_falcon ./star_wars/rebellion
+  345  mv ./star_wars/empire/death_star/darth_vader.txt ./star_wars/empire
+  346  rm ./star_wars/rebellion/millenium_falcon/luke_skywalker.txt
+  347  git add .
+  348  git commit -m "first homework"
+  349  git push origin main
+  350  pwd
+  351  cd SEI
+  352  ls
+  353  mkdir SEI
+  354  cd SEI
+  355  mkdir labs fundamentals projects repos code-alongs deliverables sandbox
+  356  ls
+  357  cd deliverables
+  358  git clone https://github.com/Sunjang1009/Star_Wars.git
+  359  code .
+  360  cd Star_Wars
+  361  touch star_wars/empire/emperor_palpatine.txt
+  362  cd star_wars
+  363  mkdir ./empire/death_star
+  364  mv ./empire/darth_vader.txt ./empire/death_star  
+  365  echo "Help me, Obi-Wan...You're my only hope." >> ~/rebellion/princess_leia.txt 
+  366  cd ..
+  367  cd star_wars
+  368  mkdir rebellion empire
+  369  echo "Help me, Obi-Wan...You're my only hope." >> ~/star_wars/star_wars/rebellion/princess_leia.txt 
+  370  echo "Help me, Obi-Wan...You're my only hope." >> ./rebellion/princess_leia.txt 
+  371  touch ./rebellion/obi_wan.txt
+  372  touch ./rebellion/luke_skywalker.txt
+  373  mkdir ./rebellion/millenium_falcon
+  374  touch ./rebellion/millenium_falcon/han_solo.txt ./rebellion/millenium_falcon/chewbacca.txt
+  375  mv ./rebellion/*.txt ./rebellion/millenium_falcon 
+  376  mv ./rebellion/millenium_falcon ./empire/death_star 
+  377  mv ./empire/death_star/millenium_falcon/*.txt ./empire/death_star 
+  378  rm ./empire/death_star/obi_wan.txt
+  379  mv ./star_wars/empire/death_star/chewbacca.txt ./star_wars/empire/death_star/millenium_falcon 
+  380  cd ..
+  381  mv ./star_wars/empire/death_star/chewbacca.txt ./star_wars/empire/death_star/millenium_falcon 
+  382  mv ./star_wars/empire/death_star/han_solo.txt ./star_wars/empire/death_star/millenium_falcon \n
+  383  mv ./star_wars/empire/death_star/luke_skywalker.txt ./star_wars/empire/death_star/millenium_falcon \n
+  384  mv ./star_wars/empire/death_star/princess_leia.txt ./star_wars/empire/death_star/millenium_falcon \n
+  385  mv ./star_wars/empire/death_star/millenium_falcon ./star_wars/rebellion \n
+  386  mv ./star_wars/empire/death_star/darth_vader.txt ./star_wars/empire \n
+  387  rm ./star_wars/rebellion/millenium_falcon/luke_skywalker.txt \n
+  388  git add .
+  389  git commit -m "first assignment"
+  390  git push origin main
+  391  git remote -v
+  392  git push origin master
+  393  pwd
+  394  ls
+  395  cd SEI
+  396  ls
+  397  cd deliverables
+  398  ls
+  399  git clone https://github.com/Sunjang1009/arrays_lab.git
+  400  ls
+  401  cd arrays_lab
+  402  code .
+  403  cd ..
+  404  ls
+  405  cd Star_Wars
+  406  code .
+  407  cd ..
+  408  git clone https://github.com/Sunjang1009/github_101.git
+  409  ls
+  410  cd github_101
+  411  code .
+  412  git status
+  413  ls
+  414  git add .
+  415  git commit -m "github lab answers added"
+  416  git push origin master
+  417  cd ..
+  418  ls
+  419  cd code-alongs
+  420  mkdir prep
+  421  ls
+  422  cd prep
+  423  code .
+  424  touch index.html style.css
+  425  touch app.js
+  426  node app.js
+  427  cd ..
+  428  cd deliverables
+  429  cd Star_Wars
+  430  code .
+  431  git add .
+  432  git commit -m "2nd assignment"
+  433  git push origin master
+  434  pwd
+  435  ls
+  436  cd sei
+  437  ls
+  438  cd prep
+  439  cd code-alongs
+  440  ls
+  441  cd prep
+  442  node app.js
+  443  pwd
+  444  ls
+  445  cd sei
+  446  ls
+  447  cd fundamentals
+  448  ls
+  449  mkdir js-intro
+  450  cd js-intro
+  451  touch intro.js
+  452  code .
+  453  node intro.js
+  454  pwd
+  455  code .
+  456  node intro.js
+  457  cd ..
+  458  ls
+  459  cd js-intro
+  460  node intro.js
+  461  node --version
+  462  ls
+  463  cd sei
+  464  ls
+  465  cd fundamentals
+  466  ls
+  467  mkdir js-intro2
+  468  cd js-intro2
+  469  touch intro2.js
+  470  code .
+  471  node js-intro2
+  472  node js-intro2.js
+  473  rm -rf intro3.js
+  474  touch intro3.js
+  475  node intro3.js
+  476  cd ..
+  477  ls
+  478  cd ..
+  479  ls
+  480  deliverables
+  481  ls
+  482  cd arrays_lab
+  483  code ..
+  484  code .
+  485  node arrays.js
+  486  cd ..
+  487  cd arrays_lab
+  488  git add .
+  489  git commit -m "arrayLab assignment"
+  490  git push origin main
+  491  cd ..
+  492  ls
+  493  cd labs
+  494  mkdir adventure
+  495  ls
+  496  cd a
+  497  cd adventure
+  498  touch index.html
+  499  mkdir scripts styles
+  500  ls
+  501  touch ./scripts/app.js
+  502  touch ./styles/main.css
+  503  code .
+  504  cd ..
+  505  ls
+  506  cd code-alongs
+  507  l
+  508  ls
+  509  cd prep
+  510  ls
+  511  touch arrayPractice.js
+  512  code .
+  513  node arrayPractice.js
+  514  node arrayPractie.js
+  515  node arrayPractice.js
+  516  cd ..
+  517  ls
+  518  cd labs
+  519  ls
+  520  cd ..
+  521  cd fundamentals
+  522  ls
+  523  cd js-intro2
+  524  ls
+  525  code .
+  526  node intro3.js
+  527  cd ..
+  528  ls
+  529  cd labs
+  530  git clone https://github.com/Sunjang1009/daily-js-code-challenges.git
+  531  code .
+  532  open index.html
+  533  pwd
+  534  ls
+  535  cd sei
+  536  ls
+  537  cd code-alongs
+  538  code .
+  539  node datatype.js
+  540  cd prep
+  541  node datatype.js
+  542  cd ..
+  543  ls
+  544  cd fundamentals
+  545  ls
+  546  cd ..
+  547  cd deliverables
+  548  ls
+  549  cd Star_Wars
+  550  code .
+➜  Star_Wars git:(master) 
