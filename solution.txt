@@ -1,0 +1,123 @@
+  1  echo $SHELL
+    2  compaudit | xargs chmod g-w,o-w
+    3  ls
+    4  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    5  .code
+    6  code .
+    7  ```bash\nsh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"\n```
+    8  ls
+    9  touch ~/.gitignore_global
+   10  ls
+   11  ls -a
+   12  git config --global core.excludesfile ~/.gitignore_global
+   13  code ~/.gitignore_global
+   14  brew install gh
+   15  gh auth login
+   16  gh auth logout
+   17  gh auth login
+   18  brew install node
+   19  node -v\nnpm -v
+   20  npm i -g nodemon
+   21  npm install -g npm@9.4.0
+   22  pwd
+   23  ls
+   24  git clone git@github.com:raymondborel/Star_Wars.git
+   25  ls
+   26  mkdir starwarsgit
+   27  cd starwarsgit
+   28  git clone git@github.com:raymondborel/Star_Wars.git
+   29  cd ~
+   30  git login
+   31  gh auth login
+   32  git clone git@github.com:raymondborel/Star_Wars.git
+   33  git clone https://github.com/raymondborel/Star_Wars.git
+   34  ls
+   35  code . Star_Wars
+   36  cd Star_Wars
+   37  ./ mkdir star_wars
+   38  /. mkdir star_wars
+   39  mkdir star wars
+   40  pwd
+   41  ls
+   42  rmdir star
+   43  rmdir wars
+   44  mkdir star_wars
+   45  cd star_wars mkdir empire rebellion
+   46  pwd
+   47  cd star_wars
+   48  pwd
+   49  mkdir empire mkdir rebellion
+   50  pwd
+   51  ls
+   52  pwd
+   53  touch /empire/darth_vader.txt
+   54  cd empire
+   55  pwd
+   56  touch darth_vader.txt
+   57  touch emperor_palpatine.txt
+   58  pwd
+   59  mkdir death_star
+   60  mv darth_vader.txt death_star
+   61  git .add
+   62  git add.
+   63  git add .
+   64  git commit -m "Completed Act1"
+   65  pwd
+   66  cd ./
+   67  pwd
+   68  cd ../
+   69  touch rebellion/princess_leia.txt && echo "Help me, Obi-wan...You're my only hope."
+   70  ls
+   71  cd ~
+   72  ls
+   73  cd Star_wars
+   74  touch star_wars/rebellion/obi_wan.txt
+   75  ls
+   76  touch star_wars/rebellion/luke_skywalker.txt
+   77  mkdir star_wars/rebellion/millenium_falcon
+   78  touch millenium_falcon/han_solo.txt && touch millenium_falcon/chewbacca.txt
+   79  touch star_wars/rebellion/millenium_falcon/han_solo.txt && touch star_wars/rebellion/millenium_falcon/chewbacca.txt
+   80  mv luke_skywalker millenium_falcon
+   81  mv luke_skywalker star_wars/rebellion/millenium_falcon
+   82  mv luke_skywalker.txt star_wars/rebellion/millenium_falcon
+   83  cd star_wars
+   84  cd rebellion
+   85  mv luke_skywalker.txt millenium_falcon
+   86  mv obi_wan.txt millenium_falcon && mv princess_leia.txt millenium_falcon
+   87  cd ../
+   88  mv millenium_falcon death_star
+   89  mv rebellion/millenium_falcon empire/death_star
+   90  git add .
+   91  git commit -m "Completed Act2\nnotsure\npwd\n"
+   92  mv empire/death_star/millenium_falcon/* empire/death_star
+   93  mv empire/death_star/millenium_falcon/* ../
+   94  mv empire/death_star/millenium_falcon/* empire/death_star
+   95  mv empire/death_star/millenium_falcon/* ../
+   96  mv empire/death_star/millenium_falcon/* death_star
+   97  empire/death_star/millenium_falcon/* empire/death_star
+   98  empire/death_star/millenium_falcon/* ../
+   99  empire/death_star/millenium_falcon/* empire/death_star/../
+  100  mv empire/death_star/millenium_falcon/* empire/death_star
+  101  mv empire/death_star/millenium_falcon/* ../
+  102  mv empire/death_star/millenium_falcon/*.txt empire/death_star
+  103  cd empire/death_star
+  104  ls
+  105  history
+  106  ../
+  107  rm empire/death_star/obi_wan.txt
+  108  mv empire/death_star/* empire/death_star/millenium_falcon
+  109  git add .
+  110  git commit -m "Act3 #3"
+  111  mv empire/death_star/*.txt empire/death_star/millenium_falcon
+  112  mv empire/death_star/chewbacca.txt empire/death_star/millenium_falcon
+  113  cd empire/death_star
+  114  ls
+  115  cd ../
+  116  mv empire/death_star/millenium_falcon empire
+  117  mv empire/millenium_falcon rebellion
+  118  rm empire/death_star
+  119  rm -rf death_star
+  120  rm -rf empire/death_star
+  121  git add /
+  122  git add .
+  123  git commit -m "Finished all Acts!\n"
