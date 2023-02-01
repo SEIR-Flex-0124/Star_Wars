@@ -16,3 +16,5 @@ mv millenium_falcon empire
 cd empire
 cd death_star
 mv ../millenium_falcon ./
+
+//Alternative solution which I received from a peer since I knew there was an easier way: mv rebellion/millenium_falcon empire/death_star/
