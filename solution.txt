@@ -1,0 +1,82 @@
+ cd generalassembly
+  257  ls
+  258  cd Star_Wars
+  259  code .
+  260  ls
+  261  cd star_wars
+  262  ls
+  263  cd star_wars
+  264  mkdir rebellion empire 
+  265  touch star_wars/empire/emperor_palpatine.txt
+  266  ls
+  267  cd empire
+  268  ls
+  269  touch emperor_palpatine.txt
+  270  mkdir death_star
+  271  Move ~star_wars/empire/darth_vader.txt ~star_wars/empire/death_star
+  272  Move darth_vader.txt death_star
+  273  mv darth_vader.txt death_star
+  274  git status
+  275  git add .
+  276  cd ..
+  277  ls
+  278  git commit -m "<completed act 1, testing 'commit early and often'>"
+  279  ls
+  280  cd rebellion
+  281  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess_leia.txt 
+  282  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt 
+  283  touch obi_wan.txt
+  284  touch luke_skywalker.txt
+  285  mkdir millenium_falcon 
+  286  cd millenium_falcon
+  287  touch han_solo.txt && chewbacca.txt 
+  288  touch han_solo.txt chewbacca.txt
+  289  cd .
+  290  cd ..
+  291  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /millenium_falcon/
+  292  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  293  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt 
+  294  touch obi_wan.txt
+  295  touch luke_skywalker.txt
+  296  mkdir millenium_falcon
+  297  touch han_solo.txt chebacca.txt 
+  298  git add .
+  299  git commit -m "<messed up the #6 move last time without commiting first, we learned from our mistake>"
+  300  mv luke_skywalker.txt obi_wan.txt princess_leia.txt -t millenium_falcon
+  301  mv han_solo.txt chewbacca.txt -t millenium_falcon
+  302  ls
+  303  cd millenium_falcon
+  304  cd ..
+  305  mv millenium_falcon/ ../empire/death_star
+  306  git add .
+  307  git commit -m "<finished act2>" 
+  308  cd ..
+  309  cd empire/death_star
+  310  mv millenium_falcon/*
+  311  mv millenium_falcon/*.txt
+  312  mv millenium_falcon/*.txt death_star
+  313  mv millenium_falcon/*.txt death_star/
+  314  cd ..
+  315  mv star_wars/empire/death_star/millenium_falcon/*txt star_wars/empire/death_star
+  316  cd star_wars/empire/
+  317  ls
+  318  cd death_star
+  319  ls
+  320  rm obi_wan.txt
+  321  cd ..
+  322  cd star_wars/empire/death_star
+  323  ls
+  324  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  325  cd ..
+  326  mv star_wars/empire/death_star/millenium_falcon/ star_wars/rebellion
+  327  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+  328  cd star_wars/empire
+  329  ls
+  330  rm -rf death_star
+  331  ls
+  332  git add .
+  333  git commit -m <"death_star is gone"> 
+  334  git status
+  335  git add .
+  336  cd ..
+  337  git commit -m "<death star is gone>"
