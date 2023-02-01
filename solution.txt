@@ -232,3 +232,359 @@ Date:   Thu Mar 17 15:56:43 2022 -0700
 
     star wars here
 darontillman@DaRons-Air Star_Wars-4 % 
+darontillman@DaRons-Air Star_Wars-4 % ls
+README.md       act1.sh         act2.sh         act3.sh         notes.txt       solution.txt    star_wars
+darontillman@DaRons-Air Star_Wars-4 % cd star_wars
+darontillman@DaRons-Air star_wars % la
+zsh: command not found: la
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd rebellion
+darontillman@DaRons-Air rebellion % touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope."
+Help me, Obi-Wan…You’re my only hope.
+darontillman@DaRons-Air rebellion % ls
+princess_leia.txt
+darontillman@DaRons-Air rebellion % rm princess_leia.txt 
+darontillman@DaRons-Air rebellion % ls
+darontillman@DaRons-Air rebellion % touch princess_leia.txt && echo echo "...heavy breathing..." >> e/princess_leia.txt  
+zsh: no such file or directory: e/princess_leia.txt
+darontillman@DaRons-Air rebellion % rm princess_leia.txt 
+darontillman@DaRons-Air rebellion % "...heavy breathing..." >> /princess_leia.txt   
+zsh: read-only file system: /princess_leia.txt
+darontillman@DaRons-Air rebellion % cd ..                  
+darontillman@DaRons-Air star_wars % cd ..
+darontillman@DaRons-Air Star_Wars-4 % cd ..                                                                                                                                               
+darontillman@DaRons-Air ~ % ls
+Applications    Desktop         Documents       Downloads       Library         Movies          Music           Pictures        Public          Star_Wars-4     ga-blog         one             project         unit
+darontillman@DaRons-Air ~ % cd .. 
+darontillman@DaRons-Air /Users % ls
+Shared          darontillman
+darontillman@DaRons-Air /Users % darontillman
+zsh: command not found: darontillman
+darontillman@DaRons-Air /Users % cd daron tillman
+cd: string not in pwd: daron
+darontillman@DaRons-Air /Users % ls
+Shared          darontillman
+darontillman@DaRons-Air /Users % pwd
+/Users
+darontillman@DaRons-Air /Users % ls
+Shared          darontillman
+darontillman@DaRons-Air /Users % cd darontillman 
+darontillman@DaRons-Air ~ % ls
+Applications    Desktop         Documents       Downloads       Library         Movies          Music           Pictures        Public          Star_Wars-4     ga-blog         one             project         unit
+darontillman@DaRons-Air ~ % cd Star_Wars-4/star_wars/rebellion 
+darontillman@DaRons-Air rebellion % ls
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % cd..
+zsh: command not found: cd..
+darontillman@DaRons-Air star_wars % touch star_wars/rebellion/princess_leia.txt && echo"Help me, Obi-Wan…You’re my only hope.">> star_wars/rebellion/princess_leia.txt
+touch: star_wars/rebellion/princess_leia.txt: No such file or directory
+darontillman@DaRons-Air star_wars % cd rebellion 
+darontillman@DaRons-Air rebellion % touch princess_leia.txt && echo ""Help me, Obi-Wan…You’re my only hope."
+cmdand dquote> y
+cmdand dquote> y
+cmdand dquote> y
+cmdand dquote> y
+cmdand dquote> n
+cmdand dquote> m
+cmdand dquote> n
+cmdand dquote> n
+cmdand dquote> n
+cmdand dquote> nn
+cmdand dquote> n
+cmdand dquote> cd rebellion
+cmdand dquote> "Help me, Obi-Wan…You’re my only hope."                                                                                           
+cmdand dquote> ''
+cmdand dquote> '""
+cmdand dquote> ""
+cmdand dquote> "Help me, 
+Help me, Obi-Wan…You’re my only hope.
+y
+y
+y
+y
+n
+m
+n
+n
+n
+nn
+n
+cd rebellion
+Help me, Obi-Wan…You’re my only hope.
+''
+'
+
+Help me,
+darontillman@DaRons-Air rebellion % rm princess_leia.txt 
+darontillman@DaRons-Air rebellion % ls
+darontillman@DaRons-Air rebellion % touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >>princess_leia.txt
+darontillman@DaRons-Air rebellion % ls
+princess_leia.txt
+darontillman@DaRons-Air rebellion % touch obi_wan.txt
+darontillman@DaRons-Air rebellion % touch luke_skywalker.txt
+darontillman@DaRons-Air rebellion % mkdir millenium_falcon
+darontillman@DaRons-Air rebellion % cd millenium_falcon 
+darontillman@DaRons-Air millenium_falcon % touch han_solo.txt && touch chewbacca.txt
+darontillman@DaRons-Air millenium_falcon % ls
+chewbacca.txt   han_solo.txt
+darontillman@DaRons-Air millenium_falcon % ls
+chewbacca.txt   han_solo.txt
+darontillman@DaRons-Air millenium_falcon % cd ..
+darontillman@DaRons-Air rebellion % ls
+luke_skywalker.txt      millenium_falcon        obi_wan.txt             princess_leia.txt
+darontillman@DaRons-Air rebellion % mv luke_skywalker.txt && mv obi_wan.txt && mv princess_leia.txt >> millenium_falcon 
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+darontillman@DaRons-Air rebellion % ls
+luke_skywalker.txt      millenium_falcon        obi_wan.txt             princess_leia.txt
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd rebellion 
+darontillman@DaRons-Air rebellion % mv luke_skywalker.txt && mv obi_wan.txt && mv princess_leia.txt >> millenium_falcon 
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+darontillman@DaRons-Air rebellion % mv~/*.txt ~/millenium_falcon
+zsh: no matches found: mv~/*.txt
+darontillman@DaRons-Air rebellion % mv ~/obi_wan.txt/luke_skywalker.txt/princess_leia.txt ~/millenium_falcon
+mv: rename /Users/darontillman/obi_wan.txt/luke_skywalker.txt/princess_leia.txt to /Users/darontillman/millenium_falcon: No such file or directory
+darontillman@DaRons-Air rebellion % mv obi_wan.txt && mv luke_skywalker.txt && mv princess_leia.txt millenium_falcon 
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+darontillman@DaRons-Air rebellion % mv obi_wan.txt && mv luke_skywalker.txt && mv princess_leia.txt >> millenium_falcon 
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+darontillman@DaRons-Air rebellion % mv obi_wan.txt && mv luke_skywalker.txt && mv princess_leia.txt >>/ millenium_falcon 
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+darontillman@DaRons-Air rebellion % mv obi_wan.txt luke_skywalker.txt princess_leia.txt millenium_falcon 
+darontillman@DaRons-Air rebellion % ls
+millenium_falcon
+darontillman@DaRons-Air rebellion % cd millenium_falcon 
+darontillman@DaRons-Air millenium_falcon % ls
+chewbacca.txt           han_solo.txt            luke_skywalker.txt      obi_wan.txt             princess_leia.txt
+darontillman@DaRons-Air millenium_falcon % cd ..
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % cd ..
+darontillman@DaRons-Air Star_Wars-4 % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+darontillman@DaRons-Air Star_Wars-4 % git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   act2.sh
+        modified:   solution.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        star_wars/rebellion/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+darontillman@DaRons-Air Star_Wars-4 % git add .
+darontillman@DaRons-Air Star_Wars-4 % git commit -m "act 2 finished"
+[master 99e76d2] act 2 finished
+ 7 files changed, 242 insertions(+), 6 deletions(-)
+ create mode 100644 star_wars/rebellion/millenium_falcon/chewbacca.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/han_solo.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/luke_skywalker.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/obi_wan.txt
+ create mode 100644 star_wars/rebellion/millenium_falcon/princess_leia.txt
+darontillman@DaRons-Air Star_Wars-4 % git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+darontillman@DaRons-Air Star_Wars-4 % git log
+commit 99e76d26b6a08a2224a2216812d7287ff2c2d1af (HEAD -> master)
+Author: Ronnie95 <t_daron@yahoo.com>
+Date:   Tue Jan 31 18:41:33 2023 -0500
+
+    act 2 finished
+
+commit 0a2a48be02abc0f3349f9c545a4b812240e74ae1
+Author: Ronnie95 <t_daron@yahoo.com>
+Date:   Tue Jan 31 16:58:40 2023 -0500
+
+    Act one complete
+
+commit c44df582f3814b2c03c78431854b989d89814905 (origin/master, origin/HEAD)
+Merge: b1b8753 8b52566
+Author: Eric Fithian <21210833+EricFithian@users.noreply.github.com>
+Date:   Mon Nov 14 14:41:25 2022 -0500
+
+    Merge pull request #1 from EricFithian/master
+    darontillman@DaRons-Air Star_Wars-4 % ls
+README.md       act1.sh         act2.sh         act3.sh         notes.txt       solution.txt    star_wars
+darontillman@DaRons-Air Star_Wars-4 % cd star_wars   
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd rebellion 
+darontillman@DaRons-Air rebellion % ls
+millenium_falcon
+darontillman@DaRons-Air rebellion % cd ,
+cd: no such file or directory: ,
+darontillman@DaRons-Air rebellion % cd millenium_falcon 
+darontillman@DaRons-Air millenium_falcon % mv millenium_falcon /* ../death_star
+mv: ../death_star is not a directory
+darontillman@DaRons-Air millenium_falcon % cd ..
+darontillman@DaRons-Air rebellion % cd..
+zsh: command not found: cd..
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % mv millenium_falcon/* ../death_star
+zsh: no matches found: millenium_falcon/*
+darontillman@DaRons-Air star_wars % mv millenium_falcon death_star
+mv: rename millenium_falcon to death_star: No such file or directory
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd rebellion
+darontillman@DaRons-Air rebellion % ls
+millenium_falcon
+darontillman@DaRons-Air rebellion % mv millenium_falcon/* ../death_star
+mv: ../death_star is not a directory
+darontillman@DaRons-Air rebellion % mv millenium_falcon/* ../empire/death_star
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd empire/death_star
+darontillman@DaRons-Air death_star % ls
+chewbacca.txt           darth_vader.txt         han_solo.txt            luke_skywalker.txt      obi_wan.txt             princess_leia.txt
+darontillman@DaRons-Air death_star % rm obi_wan.txt 
+darontillman@DaRons-Air death_star % mv han_solo.txt && mv luke_skywalker.txt && mv princess_leia.txt ../rebellion/millenium_falcon
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+darontillman@DaRons-Air death_star % mv han_solo.txt && mv luke_skywalker.txt && mv princess_leia.txt rebellion/millenium_falcon
+usage: mv [-f | -i | -n] [-hv] source target
+       mv [-f | -i | -n] [-v] source ... directory
+darontillman@DaRons-Air death_star % mv han_solo.txt luke_skywalker.txt  princess_leia.txt ../rebellion/millenium_falcon 
+mv: ../rebellion/millenium_falcon is not a directory
+darontillman@DaRons-Air death_star % cd..
+zsh: command not found: cd..
+darontillman@DaRons-Air death_star % cd ..
+darontillman@DaRons-Air empire % ls
+death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd rebellion 
+darontillman@DaRons-Air rebellion % ls
+millenium_falcon
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % ls  
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd empire 
+darontillman@DaRons-Air empire % ls
+death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % cd death_star 
+darontillman@DaRons-Air death_star % mv han_solo.txt luke_skywalker.txt princess_leia.txt chewbacca.txt ../rebellion/millenium_falcon
+mv: ../rebellion/millenium_falcon is not a directory
+darontillman@DaRons-Air death_star % mv han_solo.txt luke_skywalker.txt princess_leia.txt chewbacca.txt rebellion
+mv: rebellion is not a directory
+darontillman@DaRons-Air death_star % cd ..
+darontillman@DaRons-Air empire % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd rebellion 
+darontillman@DaRons-Air rebellion % mv han_solo.txt luke_skywalker.txt princess_leia.txt chewbacca.txt rebellion/millenium_falcon
+mv: rebellion/millenium_falcon is not a directory
+darontillman@DaRons-Air rebellion % mv han_solo.txt luke_skywalker.txt princess_leia.txt chewbacca.txt rebellion 
+mv: rebellion is not a directory
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd empire           
+darontillman@DaRons-Air empire % ls
+death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % cd death_star 
+darontillman@DaRons-Air death_star % ls
+chewbacca.txt           darth_vader.txt         han_solo.txt            luke_skywalker.txt      princess_leia.txt
+darontillman@DaRons-Air death_star % mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/rebellion/millenium_falcon 
+mv: /Users/darontillman/rebellion/millenium_falcon is not a directory
+darontillman@DaRons-Air death_star % mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/star_wars/rebellion/millenium_falcon 
+mv: /Users/darontillman/star_wars/rebellion/millenium_falcon is not a directory
+darontillman@DaRons-Air death_star % mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/Star_wars-4/star_wars/rebellion/millenium_falcon
+darontillman@DaRons-Air death_star % cd ..
+darontillman@DaRons-Air empire % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % ls\    
+> la
+zsh: command not found: lsla
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd rebellion 
+darontillman@DaRons-Air rebellion % ls
+millenium_falcon
+darontillman@DaRons-Air rebellion % cd ..
+darontillman@DaRons-Air star_wars % ls
+empire          rebellion
+darontillman@DaRons-Air star_wars % cd empire 
+darontillman@DaRons-Air empire % ls
+death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % cd death_star 
+darontillman@DaRons-Air death_star % ls
+darth_vader.txt
+darontillman@DaRons-Air death_star % mv darth_vader.txt ~Star_wars-4/star_wars/empire
+zsh: no such user or named directory: Star_wars-4
+darontillman@DaRons-Air death_star % mv darth_vader.txt empire
+darontillman@DaRons-Air death_star % ls
+empire
+darontillman@DaRons-Air death_star % cd empire 
+cd: not a directory: empire
+darontillman@DaRons-Air death_star % ls 
+empire
+darontillman@DaRons-Air death_star % cd empire 
+cd: not a directory: empire
+darontillman@DaRons-Air death_star % mv empire darth_vader.txt
+darontillman@DaRons-Air death_star % ls
+darth_vader.txt
+darontillman@DaRons-Air death_star % mv darth_vader.txt death_star/empire
+mv: rename darth_vader.txt to death_star/empire: No such file or directory
+darontillman@DaRons-Air death_star % ls
+darth_vader.txt
+darontillman@DaRons-Air death_star % cd ..
+darontillman@DaRons-Air empire % ls
+death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % mv darth_vader.txt ../death_star/empire
+mv: rename darth_vader.txt to ../death_star/empire: No such file or directory
+darontillman@DaRons-Air empire % cd death_star 
+darontillman@DaRons-Air death_star % mv darth_vader.txt ~/empire
+darontillman@DaRons-Air death_star % ls
+darontillman@DaRons-Air death_star % cd ..
+darontillman@DaRons-Air empire % ls
+death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % cd death_star 
+darontillman@DaRons-Air death_star % ls
+darontillman@DaRons-Air death_star % touch darth_vader.txt
+darontillman@DaRons-Air death_star % mv darth_vader.txt ~Star_wars-4/star_wars/empire
+zsh: no such user or named directory: Star_wars-4
+darontillman@DaRons-Air death_star % cd ~
+darontillman@DaRons-Air ~ % lsw
+zsh: command not found: lsw
+darontillman@DaRons-Air ~ % ls
+Applications    Documents       Library         Music           Public          empire          one             unit
+Desktop         Downloads       Movies          Pictures        Star_Wars-4     ga-blog         project
+darontillman@DaRons-Air ~ % mv darth_vader.txt ~/Star_Wars-4/star_wars/empire 
+mv: rename darth_vader.txt to /Users/darontillman/Star_Wars-4/star_wars/empire/darth_vader.txt: No such file or directory
+darontillman@DaRons-Air ~ % ~     
+zsh: permission denied: /Users/darontillman
+darontillman@DaRons-Air ~ % cd ~
+darontillman@DaRons-Air ~ % cd Star_Wars-4/star_wars/empire/death_star 
+darontillman@DaRons-Air death_star % mv darth_vader.txt/* ../empire                
+zsh: no matches found: darth_vader.txt/*
+darontillman@DaRons-Air death_star % mv darth_vader.txt ../                           
+darontillman@DaRons-Air death_star % cd ..
+darontillman@DaRons-Air empire % ls
+darth_vader.txt         death_star              emperor_palpatine.txt
+darontillman@DaRons-Air empire % rm -r death_star 
+darontillman@DaRons-Air empire % ls
+darth_vader.txt         emperor_palpatine.txt
+darontillman@DaRons-Air empire % 
