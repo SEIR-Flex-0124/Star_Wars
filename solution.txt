@@ -1,0 +1,325 @@
+➜  Deliverables history
+    1  ls
+    2  echo $SHELL
+    3  brew install node
+    4  node -v
+    5  npm -v
+    6  npm i -g nodemon
+    7  npm install -g npm@9.3.1
+    8  pwd
+    9  ls
+   10  mkdir Error: TLDR
+   11  pwd
+   12  cd Error: TLDR
+   13  pwd
+   14  cd Error: TLDR
+   15  cd Documents
+   16  cd..
+   17  ..
+   18  ../
+   19  cd ~
+   20  ls
+   21  rm TLDR
+   22  mkdir Error-TLDR
+   23  cd Error-TLDR
+   24  pwd
+   25  git init
+   26  ls -a
+   27  sudo nano ~/.inputrc
+   28  sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   29  code .
+   30  brew doctor
+   31  brew update
+   32  brew upgrade
+   33  git config --global user.name "frostyserge"
+   34  git config --global user.email "eyemoroz@gmail.com"
+   35  git config --global init.defaultBranch main
+   36  git config --global core.editor "code --wait"
+   37  git config --global pull.rebase false
+   38  pwd
+   39  touch ~/.gitignore_global
+   40  git config --global core.excludesfile ~/.gitignore_global
+   41  code ~/.gitignore_global
+   42  brew install gh
+   43  gh auth login
+   44  node -v
+   45  npm -v
+   46  pwd
+   47  ls
+   48  git clone https://github.com/frostyserge/codio.git
+   49  pwd
+   50  mkdir Bootcamp
+   51  cd ~
+   52  pwd
+   53  mkdir SEI
+   54  cd SEi
+   55  cd SEI
+   56  wpd
+   57  pwd
+   58  cd ~
+   59  history
+   60  history -d <58>
+   61  history -d 58
+   62  history
+   63  pwd
+   64  ls
+   65  cd SEI
+   66  mkdir Deliverables
+   67  cd Deliverables
+   68  git clone https://github.com/frostyserge/Star_Wars.git
+   69  ls
+   70  cd Star_Wars
+   71  code .
+   72  mkdir star_wars
+   73  cd star_wars
+   74  mkdir empire rebellion
+   75  pwd
+   76  cd empire
+   77  pwd
+   78  touch star_wars/empire/emperor_palpatine.txt
+   79  pwd
+   80  touch emperor_palpatine.txt
+   81  pwd
+   82  mkdir death_star
+   83  ls
+   84  mv darth_vader death_star
+   85  mv darth_vader /death_star
+   86  % mv darth_vader /death_star
+   87  mv ~/empire/darth_vader ~/death_star/darth_vader
+   88  %  mv ~/empire/darth_vader.txt ~/death_star/darth_vader.txt
+   89  mv /empire/darth_vade.txt /death_star/darth_vader.txt
+   90  % mv ~/empire/darth_vader.txt ~/death_star/darth_vader.txt
+   91  % mv ~/star_wars/empire/darth_vader.txt ~/death_star/darth_vader.txt
+   92  mv /STAR_WARS/star_wars/empire/darth_vader.txt /death_star/darth_vader.txt
+   93  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+   94  mv /star_wars/empire/darth_vader.txt /star_wars/empire/death_star
+   95  echo "Help me, Obi-Wan…You’re my only hope." /star_wars/rebellion/princess_leia.txt
+   96  echo "Help me, Obi-Wan…You’re my only hope." >> /star_wars/rebellion/princess_leia.txt
+   97  mv darth_vader.txt death_star
+   98  git add .
+   99  git commit -m "completed act1 tasks"
+  100  echo "Help me, Obi-Wan…You’re my only hope." >> touch  /star_wars/rebellion/princess_leia.txt
+  101  rm -R touch/
+  102  rm touch
+  103  cd rebellion
+  104  pwd
+  105  ..
+  106  cd rebellion
+  107  pwd
+  108  echo "Help me, Obi-Wan…You’re my only hope." >> ~/princess_leia.txt
+  109  ls
+  110  echo "Help me, Obi-Wan…You’re my only hope." >> princess_leia.txt
+  111  ls
+  112  touch obi_wan.txt
+  113  ls
+  114  touch luke_skywalker.txt
+  115  ls
+  116  mkdir millenium_falcon
+  117  ls
+  118  touch /millenium_falcon/han_solo.txt chewbacca.txt
+  119  ls
+  120  cd millenium_falcon
+  121  ls
+  122  ..
+  123  pwd
+  124  rm chewbacca.txt
+  125  ls
+  126  touch star_wars/rebellion/han-solo.txt chewbacca.txt
+  127  ls
+  128  rm chewbacca.txt
+  129  ls
+  130  star_wars/rebellion/millenium_falcon/han_solo.txt chewbacca.txt
+  131  ls
+  132  cd millenium_falcon
+  133  ls
+  134  touch star_wars/rebellion/millenium_falcon/han_solo.txt chewbacca.txt
+  135  ls
+  136  touch han_solo.txt
+  137  ls
+  138  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  139  ls
+  140  mv *.txt star_wars/rebellion/ star_wars/rebellion/millenium_falcon
+  141  git status
+  142  pwd
+  143  ..
+  144  ls
+  145  mv *.txt star_wars/rebellion/ star_wars/rebellion/millenium_falcon
+  146  cd SEI
+  147  cd ~
+  148  pwd
+  149  cd SEI
+  150  mkdir unit_1
+  151  cd unit_1
+  152  mkdir wk1_d3
+  153  cd wk1_d3
+  154  ls
+  155  touh intro.js
+  156  touch intro.js
+  157  ls
+  158  code .
+  159  cd ~
+  160  code .
+  161  cd wk1_d3
+  162  node intro.js
+  163  is
+  164  Is
+  165  ~ Is
+  166  ~is
+  167  ~ is
+  168  node,js
+  169  node.js
+  170  q
+  171  node -v
+  172  node intro.js
+  173  cd wk1_d3
+  174  cd SEI
+  175  cd unit_1
+  176  cd wk1_d3
+  177  node intro.js
+  178  touch arrays.js
+  179  node arrays.js
+  180  cd ~
+  181  cd SEI
+  182  cd Deliverables
+  183  ls
+  184  git add https://github.com/frostyserge/arrays_lab.git
+  185  git clone https://github.com/frostyserge/arrays_lab.git
+  186  ls
+  187  cd arrays_lab
+  188  node arrays.js
+  189  cd Deliverables
+  190  cd Star_Wars
+  191  cd star_wars
+  192  pwd
+  193  cd Deliverables
+  194  ..
+  195  pwd
+  196  cd star_wars
+  197  pwd
+  198  /*\nExercise 1:\n  - Define an empty array named foods\n*/\n\n// Exercise 1 has been completed for you...\n\nconst foods = [];\n\nconsole.log('Exercise 1 Result: ', foods);\n\n/*\nExercise 2:\n  - Add the strings 'pizza' & 'cheeseburger' to the foods array such that 'pizza' comes before 'cheeseburger'.\n*/\n\n// Complete Exercise 2 below...\n\n\nfoods.push("pizza", "cheeseburger")\nconsole.log('Exercise 2 Result: ',  foods);\n\n/*\nExercise 3:\n  - Add the string 'taco' to the foods array so that 'taco' is the first food in the array.\n*/\n\n// Complete Exercise 3 below...\n\n\nfoods.unshift("taco")\nconsole.log('Exercise 3 Result: ', foods);\n\n/*\nExercise 4:\n  - Access the string 'pizza' (based upon its known position) in the foods array and assign to a variable named favFood.\n*/\n\n// Complete Exercise 4 below...\n\n\nlet favFood = foods[1]\nconsole.log('Exercise 4 Result: ', favFood);\n\n/*\nExercise 5:\n  - Insert the string 'tofu' in the foods array between 'pizza' & 'cheeseburger'\n*/\n\n// Complete Exercise 5 below...\n\n\nfoods.splice(2, 0, "tofu")\nconsole.log('Exercise 5 Result: ', foods);\n\n/*\nExercise 6:\n  - Replace the string 'pizza' in the foods array with the strings 'sushi' & 'cupcake'.\n*/\n\n// Complete Exercise 6 below...\n\n\nfoods.splice(1, 1, "sushi", "cupcake")\nconsole.log('Exercise 6 Result: ', foods);\n\n/*\nExercise 7:\n  - Use the slice method on the foods array to create a new array containing 'sushi' & 'cupcake'.\n  - Assign the new array to a variable named yummy.\n*/\n\n// Complete Exercise 7 below...\n\n\nlet yummy = foods.slice(1, 3)\nconsole.log('Exercise 7 Result: ', yummy);\n\n/*\nExercise 8:\n  - Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.\n*/\n\n// Complete Exercise 8 below...\n\n\nlet soyIdx = foods.indexOf("tofu")\nconsole.log('Exercise 8 Result: ', soyIdx);\n\n/*\nExercise 9:\n  - Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string:\n    'taco -> sushi -> cupcake -> tofu -> cheeseburger'\n*/\n\n// Complete Exercise 9 below...\n\n\nlet allFoods = foods.join(" -> ")\nconsole.log('Exercise 9 Result: ', allFoods);\n\n/*\nExercise 10:\n  - Assign a boolean to a variable named hasSoup depending upon whether or not the foods array includes the string 'soup'.\n*/\n\n// Complete Exercise 10 below...\nlet hasSoup;\n\nif(foods.includes("soup")) {\n  hasSoup = true;\n}else{\n  hasSoup = false;\n}\n\nconsole.log( 'Exercise 10 results', hasSoup)\n\n/*\nExercise 11:\n  - Use either the for, for of, or forEach loops to iterate through the provided nums array and add each odd number to a new array named odds.\n  - Some helpful video about looping over arrays\n    > https://www.youtube.com/watch\?v\=JFf6ogtBUdo\&t\=144s\n    > https://www.youtube.com/watch\?v\=Yf6whlVj5qA\&t\=32s\n  - Hint: Initialize the odds variable to an empty array before the iteration.\n*/\n\nconst nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];\n\n// Complete Exercise 11 below...\n\n\nlet odds = [];\nnums.forEach((num) => {\n  if (num % 2 === 1) {\n    odds.push(num);\n  }\n});\nconsole.log('Exercise 11 Result: ', odds);\n\n/*\nExercise 12:\n  - Use the loop to iterate through the same nums array and add the number to arrays named fizz, buzz and/or fizzbuzz based upon the following:\n  \t- Add to the fizz array if the number is evenly divisible by 3.\n  \t- Add to the buzz array if the number is evenly divisible by 5.\n  \t- Add to the fizzbuzz array if the number is evenly divisible by 3 & 5.\n*/\n\n// Complete Exercise 12 below...\n\n\nfor()\nconsole.log('Exercise 12 Results:');\nconsole.log('  fizz:', fizz);\nconsole.log('  buzz:', buzz);\nconsole.log('  fizzbuzz:', fizzbuzz);\n\n/*\nExercise 13:\n  - Given the below numArrays array of arrays (two-dimensional array), assign the last nested array to a variable named numList.\n  - Assume you don't know how many nested arrays numArrays contains.\n*/\n\nconst numArrays = [\n\t[100, 5, 23],\n\t[15, 21, 72, 9],\n\t[45, 66],\n\t[7, 81, 90]\n];\n\n// Complete Exercise 13 below...\n\n\n\nconsole.log('Exercise 13 Result: ', numList);\n\n/*\nExercise 14:\n  - Given the above numArrays array, access the number 66 and assign to a variable named num.\n*/\n\n// Complete Exercise 14 below...\n\n\n\nconsole.log('Exercise 14 Result: ', num);\n\n/*\nExercise 15:\n  - Given the above numArrays array, use nested loops to sum up all the numbers contained within numArrays and assign to a variable named total.\n  - Hint: Be sure to declare and initialize the total variable before the iterations.\n*/\n\n// Complete Exercise 15 below...\n\nfor (let i = 0; i < numArrays.length; i++){\n\n  for (let j = 0; j < numArrays[i].length; j++){ //nested loops numArrays[i] is the entire first array\n  console.log(`i is ${i} and j is ${j} and so numArrays[i][j] is ${numArrays[i][j]}`)\n  total += numArrays [i][j] //total = total + numArrays\n  }\n\n}\n\n\nconsole.log('Exercise 15 Result: ', total);\nmv luke_skywalker.txt obi_wan.txt princess_leia.txt star_wars/rebellion/millenium_falcon
+  199  mv luke_skywalker.txt obi_wan.txt princess_leia.txt star_wars/rebellion/millenium_falcon
+  200  mv ~/rebellion/luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  201  mv /millenium_falcon /death_star
+  202  mv ~/millenium_falcon ~/death_star
+  203  rebellion/* millenium_falcon/
+  204  mv rebellion/*.txt millenium_falcon/
+  205  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  206  pwd
+  207  cd rebellion
+  208  ls
+  209  cd star_wars
+  210  ls
+  211  cd rebellion
+  212  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon
+  213  mv luke_skywalker.txt obi_wan.txt princess_leia.txt rebellion
+  214  cd millenium_falcon
+  215  pwd
+  216  mv luke_skywalker.txt obi_wan.txt princess_leia.txt rebellion
+  217  mv millenium_falcon death-star
+  218  ..
+  219  pwd
+  220  ..
+  221  pwd
+  222  mv millenium_falcon death_star
+  223  cd death_star
+  224  pw
+  225  pwd
+  226  cd empire
+  227  pwd
+  228  ls
+  229  mv millenium_falcon death_star
+  230  pwd
+  231  cd rebellion
+  232  ..
+  233  cd rebellion
+  234  pwd
+  235  mv millenium_falcon death_star
+  236  ..
+  237  cd death_star
+  238  pwd
+  239  cd rebellion
+  240  pwd
+  241  ls
+  242  mv death_star millenium_falcon
+  243  ls
+  244  cd millenium_falcon
+  245  ls
+  246  mv millenium_falcon death_star
+  247  ..
+  248  pwd
+  249  mv millenium_falcon /star_wars/empire/death_star
+  250  mv millenium_falcon empire
+  251  pwd
+  252  ls
+  253  mv empire millenium_falcon
+  254  pwd
+  255  tree
+  256  ..
+  257  pwd
+  258  ls
+  259  mv rebellion/millenium_falcon empire/death_star
+  260  git add .
+  261  git remote -v
+  262  pwd
+  263  cd empire/death_star
+  264  pwd
+  265  mv millenium_falcon/* .
+  266  rm obi_wan.txt
+  267  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  268  pwd
+  269  ..
+  270  pwd
+  271  ..
+  272  pwd
+  273  mv empire/death_star/millenium_falcon rebellion/
+  274  pwd
+  275  ls
+  276  mv empire/death_star/darth_vader.txt empire
+  277  pwd
+  278  rm -rf empire/death_star
+  279  git add .
+  280  git log
+  281  git commit -m "act2 and act3 completed"
+  282  git status
+  283  pwd
+  284  cd ..
+  285  pwd
+  286  git status
+  287  git add .
+  288  git commit -m "act1, act2 and act3 completed"
+  289  git status
+  290  git push origin master
+  291  node arrays.js
+  292  pwd
+  293  ..
+  294  pwd
+  295  cd Deliverables/
+  296  ls
+  297  arrays_lab
+  298  pwd
+  299  ls
+  300  node arrays.js
+  301  pwd
+  302  git add .
+  303  git commit -m "completed arrays lab"
+  304  git push origin master
+  305  git status
+  306  pwd
+  307  ..
+  308  ls
+  309  cd arrays_lab
+  310  pwd
+  311  git push origin master
+  312  pwd
+  313  git push origin master
+  314  ..
+  315  pwd
+  316  git push origin master
+  317  cd arrays_lab
+  318  git push origin main
+  319  pwd
+  320  cd SEI
+  321  cd Deliverables
+  322  ls
+  323  code .
+➜  Deliverables 
