@@ -1,0 +1,236 @@
+  160  cd act1.sh
+  161  mkdir star_wars
+  162  cd star_wars
+  163  mkdir rebellion empire
+  164  cd empire
+  165  touch darth_vader.txt
+  166  echo darth_vader.txt
+  167  nano darth_vader.txt
+  168  cd star_wars
+  169  ls
+  170  cd star_wars
+  171  ls
+  172  cd empire
+  173  ls
+  174  pwd
+  175  touch emperor_palpatine.txt
+  176  mkdir death_star
+  177  pwd
+  178  cd ..
+  179  li
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd ga
+  184  ls
+  185  cd desktop
+  186  cd GA
+  187  ls
+  188  cd week 1
+  189  ls
+  190  cd week 1
+  191  cd Week 1
+  192  pwd
+  193  cd Week 1
+  194  ls
+  195  pwd
+  196  cd Week 1
+  197  code .
+  198  pwd
+  199  git clone https://github.com/SEIR-Flex-0124/arrays_lab.git
+  200  code .
+  201  code .
+  202  clear
+  203  ls
+  204  cd Week 1
+  205  git clone https://github.com/kobyjackcheese/Star_Wars.git
+  206  code .
+  207  clear
+  208  pwd
+  209  cd ..
+  210  cd star war
+  211  mkdir star war
+  212  cd star war
+  213  cd star_war
+  214  git clone https://github.com/kobyjackcheese/Star_Wars.git
+  215  code.
+  216  code .
+  217  pwd
+  218  cd star_wars
+  219  cd empire
+  220  ls
+  221  echo darth_vader.txt
+  222  code .
+  223  pwd
+  224  cd ..
+  225  cd ..
+  226  code .
+  227  clear
+  228  cd ..
+  229  cd ..
+  230  pwd
+  231  mkdir GA_star_wars
+  232  ls
+  233  cd desktop
+  234  mkdir GA_starwars
+  235  cd GA_starwars
+  236  git clone https://github.com/SEIR-Flex-0124/Star_Wars-1.git
+  237  code .
+  238  ls
+  239  cd Star_wars-1
+  240  ls
+  241  mkdir star_wars
+  242  cd star_wars
+  243  ls
+  244  mkdir rebellion
+  245  cd empire
+  246  ls
+  247  touch emperor_palpatine.txt
+  248  pwd
+  249  mkdir death_star
+  250  mv darth_vader.txt death_star
+  251  cd ..
+  252  ls
+  253  cd rebellion
+  254  touch princess_leia.txt
+  255  echo "Help me, Obi-Wan.... You're my only hope." >>princess_leia.txt
+  256  touch obi_wan.txt
+  257  touch luke_skywalker.txt
+  258  mkdir millenium_falcon
+  259  mv luke_skywalker millenium_falcon
+  260  mv luke_skywalker.txt millenium_falcon
+  261  mv obi_wan.txt millenium_falcon
+  262  mv princess_leia.txt millenium_falcon
+  263  mv millenium_falcon death_star
+  264  pwd
+  265  ls
+  266  cd death_star
+  267  ls
+  268  cd millenium_falcon
+  269  pwd
+  270  rmd obi_wan.txt
+  271  rm obi_wan.txt
+  272  mv princess_leia.txt millenium_falcon
+  273  mv luke_skywalker.txt millenium_falcon 
+  274  mv millenium_falcon rebellion
+  275  cd ..
+  276  cd ..
+  277  cd empire
+  278  cd death_star
+  279  mv darth_vader.txt empire
+  280  fb-rotate
+  281  mkdir GA_star_wars
+  282  mkdir GA_star_wars
+  283  mkdir GAstar_wars
+  284  mv GAstar_wars desktop
+  285  cd desktop
+  286  cd GAstar_wars
+  287  git push https://github.com/SEIR-Flex-0124/Star_Wars-2.git
+  288  cd ..
+  289  cd GAstar_wars
+  290  code ..
+  291  git clone https://github.com/SEIR-Flex-0124/Star_Wars-2.git
+  292  code .
+  293  pwd
+  294  mkdir star_wars
+  295  cd star_wars
+  296  mkdir rebellion empire
+  297  cd empire
+  298  touch darth_vader.txt
+  299  echo "...heavy breathing..." >> darth_vader.txt
+  300  touch emperor_palpatine.txt
+  301  mkdir death_star
+  302  mv darth_vader.txt death_star
+  303  touch princess_leia.txt
+  304  cd ..
+  305  cd rebellion
+  306  touch princess_leia.txt
+  307  echo "Help me, Obi-Wan... You're my only hope." >> princess_leia.txt
+  308  touch obi_wan.txt
+  309  touch luke_skywalker.txt
+  310  mkdir millenium_falcon
+  311  mv princess_leia.txt millenium_falcon
+  312  mv obi_wan,txt millenium_falcon
+  313  mv obi_wan.txt millenium_falcon
+  314  mv luke_skywalker.txt millenium_falcon
+  315  mv millenium_falcon star_wars
+  316  cd ..
+  317  cd millenium_falcon
+  318  ls
+  319  mv millenium_falcon rebellion
+  320  cd rebellion
+  321  ls
+  322  cd star_wars
+  323  ls
+  324  cd ..
+  325  cd 
+  326  cd desktop
+  327  cd GAstar_wars
+  328  cd star_wars
+  329  ls
+  330  cd empire
+  331  cd ..
+  332  ls
+  333  cd rebellion
+  334  ls
+  335  cd star_wars
+  336  ls
+  337  ls
+  338  cd ..
+  339  ls
+  340  cd ..
+  341  ls
+  342  cd empire
+  343  cd death_star
+  344  pwd
+  345  cd ..
+  346  cd ..
+  347  cd rebellion
+  348  ls
+  349  mv millenium_falcon /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_star
+  350  ls
+  351  cd ..
+  352  cd empire
+  353  cd death_star
+  354  ls
+  355  cd millenium_falcon
+  356  ls
+  357  mv obi_wan.txt death_star
+  358  mv obi_wan.txt /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_star
+  359  ls
+  360  mv obi_wan.txt /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_star
+  361  mv princess_leia.txt  /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_sta
+  362  mv luke_skywalker.txt  /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_sta
+  363  cd ..
+  364  ls
+  365  touch princess_leia.txt && echo "Help me, Obi-Wan... You're my only hope." >> princess_leia.txt
+  366  touch luke_skywalker.txt
+  367  ls
+  368  rm obi_wan.txt
+  369  cd millenium_falcon
+  370  pwd
+  371  cd ..
+  372  mv princess_leia.txt /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_star/millenium_falcon
+  373  mv luke_skywalker /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_star/millenium_falcon
+  374  mv luke_skywalker.txt /Users/chicken/desktop/GAstar_wars/star_wars/empire/death_star/millenium_falcon
+  375  cd ..
+  376  cd ..
+  377  cd rebellion
+  378  pwd
+  379  cd ..
+  380  cd empire
+  381  cd death_star
+  382  ls
+  383  mv millenium_falcon /Users/chicken/desktop/GAstar_wars/star_wars/rebellion
+  384  cd ..
+  385  ls
+  386  pwd
+  387  cd death_star
+  388  ls
+  389  mv darth_vader.txt /Users/chicken/desktop/GAstar_wars/star_wars/empire
+  390  cd ..
+  391  rm death_star
+  392  -rf death_star
+  393  rm -rf death_star'
+
+  
