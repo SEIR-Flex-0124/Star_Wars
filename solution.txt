@@ -1,0 +1,173 @@
+
+  212  get clone ^[[200~https://github.com/rlegler2012/Star_Wars.git~
+  213  ls
+  214  cd GA/starwars
+  215  code .
+  216  code . ^[[200~https://github.com/rlegler2012/Star_Wars.git~
+  217  code . https://github.com/SEIR-Flex-0124/Star_Wars.git
+  218  cd https://github.com/SEIR-Flex-0124/Star_Wars.git
+  219  get clone < https://github.com/SEIR-Flex-0124/Star_Wars.git\>
+  220  get clone <https://github.com/SEIR-Flex-0124/Star_Wars.git\>
+  221  get clonehttps://github.com/SEIR-Flex-0124/Star_Wars.git
+  222  get clone https://github.com/SEIR-Flex-0124/Star_Wars.git
+  223  cd .. g
+  224  pwd
+  225  ~
+  226  ls
+  227  cd Desktop
+  228  get clone https://github.com/SEIR-Flex-0124/Star_Wars.git
+  229  code .
+  230  code . https://github.com/SEIR-Flex-0124/Star_Wars-5.git
+  231  code .
+  232  cd star_wars
+  233  mkdir rebellion empire
+  234  tree
+  235  mkdir star_wars
+  236  git status
+  237  git .add
+  238  git add
+  239  git add .
+  240  git commit -m "mkdir star_wars"
+  241  tree
+  242  cd empire
+  243  touch emperor_palpatine.txt
+  244  mkdir death_star
+  245  mv ~/empire/darth_vader.txt ~/death_star/
+  246  mv ~/empire/darth_vader.txt ~/death_star
+  247  mv ~/empire/darth_vader.txt ~/empire/death_star
+  248  mv empire/darth_vader.txt death_star
+  249  tree
+  250  mv darth_vader.txt ~death_star
+  251  ls
+  252  mv darth_vader.txt death_star
+  253  git add .
+  254  git commit -m "Finished Act 1"
+  255  ~
+  256  ls
+  257  cd Desktop/Star_Wars-5/star_wars/rebellion
+  258  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope."
+  259  touch \princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope."
+  260  echo "Help me, Obi-Wan...You're my only hope." >> star_wars/rebellion/princess_leia.txt 
+  261  echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  262  touch obi_wan.txt
+  263  touch luke_skywalker.txt
+  264  mkdir millenium_falcon
+  265  cd millenium_falcon
+  266  touch han_solo.txt/chewbacca.txt
+  267  touch han_solo.txt && chewbacca.txt
+  268  touch han_solo.txt chewbacca.txt
+  269  cd re
+  270  ./
+  271  ..
+  272  mv *luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  273  ..
+  274  mv *luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  275  cd rebellion/millenium_falcon
+  276  mv *luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  277  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /millenium_falcon
+  278  ..
+  279  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /millenium_falcon
+  280  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /millenium_falcon/
+  281  ..
+  282  mv luke_skywalker.txt obi_wan.txt princess_leia.txt /millenium_falcon/
+  283  mv luke_skywalker.txt obi_wan.txt princess_leia.txt -t millenium_falcon
+  284  cd rebellion
+  285  mv luke_skywalker.txt obi_wan.txt princess_leia.txt -t millenium_falcon
+  286  mv millenium_falcon
+  287  ls
+  288  cd millenium_falcon
+  289  ls
+  290  ..
+  291  mv millenium_falcon ~/death_star
+  292  ls
+  293  ..
+  294  ls
+  295  cd empire/death_star
+  296  ls
+  297  ..
+  298  cd rebellion
+  299  touch princess_leia.txt && echo "Help me, Obi-Wan...You're my only hope." >> princess_leia.txt
+  300  touch obi_wan.txt
+  301  touch luke_skywalker.txt
+  302  mkdir millenium_falcon
+  303  cd millenium_falcon
+  304  touch han_solo.txt chewbacca.txt
+  305  mv luke_skywalker.txt obi_wan.txt princess_leia.txt -t millenium_falcon
+  306  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/ millenium_falcon
+  307  mv luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon
+  308  ..
+  309  ls
+  310  mv * luke_skywalker.txt obi_wan.txt princess_leia.txt 
+  311  mv * luke_skywalker.txt obi_wan.txt princess_leia.txt ~/millenium_falcon/
+  312  mv * luke_skywalker.txt obi_wan.txt princess_leia.txt ~/rebellion/millenium_falcon/
+  313  mv luke_skywalker.txt millenium_falcon
+  314  mv obi_wan.txt millenium_falcon
+  315  mv princess_leia.txt millenium_falcon
+  316  ..
+  317  cd rebellion
+  318  mv millenium_falcon ../empire/death_star
+  319  git add .
+  320  git commit -m "Finished Act 2"
+  321  ..
+  322  git add .
+  323  git commit -a "Finsihed Act 2"
+  324  git commit -m "Finsihed Act 2"
+  325  cd empire/death_star/millenium_falcon
+  326  ..
+  327  mv millenium_falcon/*
+  328  cd millenium_falcon
+  329  mv * chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ~/death_star
+  330  ..
+  331  mv millenium_falcon/* ../empire/death_star
+  332  mv millenium_falcon/* ~/death_star
+  333  mv millenium_falcon*
+  334  mv millenium_falcon * ../death_star
+  335  mv * millenium_falcon ~/death_star
+  336  ls
+  337  cd millenium_falcon
+  338  mv * .txt ~/death_star
+  339  mv *.txt ~/death_star
+  340  mv *.txt death_star
+  341  mv *.txt /death_star
+  342  mv *.txt ../death_star
+  343  mv *.txt ./death_star
+  344  mv *.txt death_star
+  345  ..
+  346  mv millenium_falcon/*.txt
+  347  mv millenium_falcon *.txt ~/death_star
+  348  ls
+  349  rm millenium_falcon/obi_wan.txt
+  350  touch darth_vadar
+  351  mv millenium_falcon *.txt ~/death_star
+  352  cd millenium_falcon
+  353  mv *.txt ~/death_star
+  354  mv * chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ~/death_star
+  355  mv chewbacca.txt han_solo.txt luke_skywalker.txt obi_wan.txt princess_leia.txt ../
+  356  h
+  357  history
+  358  cd star_wars/empire/death_star
+  359  rm obi_wan.txt
+  360  mv chewbacca.txt han_solo.txt luke_skywalker.txt princess_leia.txt ../death_star/millenium_falcon
+  361  ..
+  362  cd rebellion
+  363  ..
+  364  cd empire/death_star/millenium_falcon
+  365  mv millenium_falcon ../rebellion
+  366  ..
+  367  mv millenium_falcon ~/rebllion/
+  368  mv millenium_falcon ../
+  369  ..
+  370  mv millenium_falcon ../rebellion
+  371  cd death_star
+  372  mv darth_vader.txt ../
+  373  ..
+  374  rm death_star
+  375  ^[[200~cd ../
+  376  rm -rf death_star
+  377  git add .
+  378  git commit -m "Finsihed Act 3"
+  379  ..
+  380  git remove -v
+  381  git remote -v
+  382  history | 212  -n 500
+  383  history | tail -n 300
