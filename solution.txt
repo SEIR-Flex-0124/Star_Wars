@@ -1,0 +1,132 @@
+378  cd Desktop
+  379  ls
+  380  cd GA
+  381  git clone git@github.com:sabrinaaziz13/Star_Wars.git
+  382  ls
+  383  Star_Wars
+  384  ls
+  385  cd Star_Wars
+  386  code .
+  387  mkdir star_wars
+  388  ls
+  389  mkdir empire rebellion
+  390  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+  391  ls
+  392  cd empire
+  393  touch emperor_palpatine.txt
+  394  mkdir death_star
+  395  mv darth_vader.txt death_star
+  396  mv star_wars/darth_vader.txt empire/death_star
+  397  mv darth_vader.txt death_star
+  398  cd ..
+  399  Star_Wars
+  400  mkdir star_wars
+  401  mkdir star_wars/rebellion star_wars/empire
+  402  ls
+  403  empire
+  404  touch star_wars/empire/darth_vader.txt
+  405  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+  406  cd ..
+  407  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt \n
+  408  cd empire 
+  409  touch emperor_palpatine.txt
+  410  code .
+  411  ls
+  412  git clone  git@github.com:SEIR-Flex-0124/Star_Wars-3.git
+  413  code .
+  414  ls
+  415  cd Star_Wars-3
+  416  code .
+  417  mkdir star_wars
+  418  mkdir star_wars/rebellion star_wars/empire
+  419  ls
+  420  cd star_wars
+  421  mkdir star_wars/rebellion star_wars/empire
+  422  mkdir rebellion empire
+  423  ls
+  424  empire
+  425  touch star_wars/empire/darth_vader.txt
+  426  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+  427  cd .. 
+  428  touch star_wars/empire/darth_vader.txt
+  429  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt \n
+  430  ls
+  431  cd star_wars
+  432  cd empire
+  433  emperor_palpatine.txt
+  434  touch emperor_palpatine.txt
+  435  mkdir death_star
+  436  mv darth_vader.txt death_star
+  437  git add .
+  438  git commit -m "star_wars act 1"
+  439  ls
+  440  cd ..
+  441  ls
+  442  cd rebellion
+  443  touch princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope."
+  444  ls
+  445  touch princess_leia.txt && echo "Help me, Obi-Wan…You're mu only hope." >> princess_leia.txt\n
+  446  touch princess_leia.txt && echo "Help me, Obi-Wan…You're my only hope." >> princess_leia.txt\n
+  447  touch obi_wan.txt
+  448  touch luke_skywalker.txt
+  449  mkdir millenium_falcon
+  450  cd millenium_falcon 
+  451  touch han_solo.txt chewbacca.txt 
+  452  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon\n
+  453  cd ..
+  454  mv luke_skywalker.txt obi_wan.txt princess_leia.txt millenium_falcon\n
+  455  mv millenium falcon ..
+  456  mv millenium_falcon ..
+  457  mv millenium_falcon empire
+  458  cd ..
+  459  mv millenium_falcon empire
+  460  mv millenium_falcon death_star 
+  461  cd empire
+  462  mv millenium_falcon death_star
+  463  git add .
+  464  ls
+  465  cd ..
+  466  ls
+  467  cd empire
+  468  ls
+  469  cd death_star
+  470  cd millenium_falcon
+  471  mv chewbacca.txt      han_solo.txt       luke_skywalker.txt obi_wan.txt        princess_leia.txt ..\n
+  472  cd ..
+  473  rm obi_wan.txt
+  474  mv chewbacca.txt      han_solo.txt luke_skywalker.txt princess_leia.txt millenium_falcon
+  475  mv millenium_falcon ..
+  476  ..
+  477  mv millenium_falcon rebellion
+  478  mv rebellion millenium_falcon
+  479  mv millenium_falcon ..
+  480  ..
+  481  mv millenium_falcon ..
+  482  mv millenium_falcon star_wars
+  483  ..
+  484  mv millenium_falcon star_wars
+  485  mv millenium_falcon rebellion
+  486  ..
+  487  ls
+  488  Star_Wars-3
+  489  ls
+  490  star_wars
+  491  mv millenium_falcon rebellion
+  492  mv darth_vader.txt ..
+  493  ls
+  494  empire
+  495  mv darth_vader.txt ..
+  496  ls
+  497  death_star
+  498  mv darth_vader.txt ..
+  499  ..
+  500  rm death_star
+  501  ls
+  502  death_star
+  503  rm -rf death_star
+  504  ..
+  505  rm -rf death_star
+  506  git add.
+  507  git add .
+  508  git commit -m "Act 3. dun dun dun"
+  509  ..
