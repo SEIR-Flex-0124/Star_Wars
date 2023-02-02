@@ -1,0 +1,250 @@
+81  ls
+   82  cd starwars
+   83  git clone https://github.com/RyanWalck/Star_Wars.git
+   84  cd starwars
+   85  ls
+   86  code.
+   87  code .
+   88  kdir star_wars/rebellion star_wars/empire
+   89  mkdir star_wars/rebellion star_wars/empire
+   90  touch star_wars/empire/darth_vader.txt
+   91  star_wars/empire/darth_vader.txt
+   92  touch star_wars/empire/emperor_palpatine.txt
+   93  mkdir empire/death_star
+   94  mkdir empire
+   95  mkdir empire/death_star
+   96  mkdir starwars/empire/deathstar
+   97  mkdir empire/deathstar
+   98  mkdir starwars/empire/deathstar
+   99  mkidr empire/deathstar
+  100  mkdir empire/death_star
+  101  touch starwars/empire/deathstar
+  102  mkdir starwars empire/deathstar
+  103  mkidr empire
+  104  mkdir empire mkdir deathstar
+  105  ls
+  106  cd starwars
+  107  mkdir empire/death_star
+  108  mkdir empire death_star
+  109  >> star_wars/empire/darth_vader.txt
+  110  cd starwars
+  111  mkdir starwars/rebellion
+  112  mkdir empire
+  113  mkdir death_star
+  114  ls
+  115  ;s
+  116  ls
+  117  cd starwars
+  118  mkdir empire
+  119  mkdir death_star
+  120  mv darth_vader.txt empire/death_star/
+  121  mv darth_vador.txt empire/death_star/
+  122  cd starwars
+  123  mkdir star_warsrebellion
+  124  mkdir starwars/rebellion
+  125  mkdir rebellion
+  126  sudo mkdir starwrs/empire/death_star
+  127  cd starwars
+  128  sudo mkdir starwrs/empire/death_star
+  129  cd starwars
+  130  cd empire
+  131  mkdir {starwars,empire,death_star}
+  132  mkdir rebellion empire
+  133  mkdir starwars/empire/death_star
+  134  mkdir empire/death_star
+  135  mkdir death_star
+  136  mkdir empire/death_star
+  137  cd star wars
+  138  cd starwars
+  139  darth_vader.txt empire/death_star/
+  140  cd starwars
+  141  star_wars/rebellion/princess_leia.txt
+  142  touch star_wars/rebellion/princess_leia.txt
+  143  echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess_leia.txt
+  144  mkdir starwars/rebellion/obi_wan.txt
+  145  touch starwars/rebellion/obi_wan.txt
+  146  touch star_wars/rebellion/obi_wan.txt
+  147  touch star_wars/rebellion/luke_skywalker.txt
+  148  mkdir rebellion/millenium_falcon
+  149  mkdir millenium_falcon
+  150  touch star_wars/empire/han_solo.txt 
+  151  touch star_wars/millenium_falcon/han_solo.txt
+  152  mkdir star_wars/rebellion/millenium_falcon
+  153  touch star_wars/millenium_falcon/han_solo.txt 
+  154  touch star_wars/rebellion/millenium_falcon/han_solo.txt
+  155  touch star_wars/rebellion/millenium_falcon/chewbacca.txt
+  156  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/millenium_falcon/
+  157  mv star_wars/rebellion/obi_wan.txt star_wars/rebellion/millenium_falcon/
+  158  mv star_wars/rebellion/princess_leia.txt star_wars/rebellion/millenium_falcon/
+  159  mv star_wars/rebellion/millenium_falcon empire/death_star/
+  160  mv star_wars/rebellion/millenium_falcon/empire/death_star/
+  161  mv star_wars/rebellion/mellenium_falcon/ empire/death_star/
+  162  mv star_wars/rebellion/mellenium_falcon/* empire/death_star/
+  163  mv star_wars/rebellion/mellenium_falcon/ ->> empire/death_star/
+  164  //it is made and wont move 
+  165  rm empire/death_star/obi_wan.txt
+  166  mkdir mellenium_falcon
+  167  ls
+  168  rm starwats
+  169  rm starwars
+  170  rm mkdir starwars
+  171  cd starwars
+  172  code .
+  173  ls
+  174  git clone https://github.com/RyanWalck/Star_Wars.git
+  175  ls
+  176  Cd Star_Wars
+  177  code .
+  178  cd starwars
+  179  Cd Star_Wars
+  180  ls
+  181  git clone https://github.com/RyanWalck/Star_Wars.git
+  182  cd
+  183  ls
+  184  cd Star_Wars
+  185  code.
+  186  code .
+  187  mkdir star_wars
+  188  mkdir star_wars/rebellion star_wars/empire
+  189  touch star_wars/empire/darth_vader.txt
+  190  echo "...heavy breathing..." >> star_wars/empire/darth_vader.txt 
+  191  touch star_wars/empire/emperor_palpatine.txt
+  192  mkdir empire/death_star
+  193  mkdir star_wars/empire/death_star
+  194  mv darth_vader.txt empire/death_star/
+  195  mv darth_vador.txt star_wars/empire/death_star
+  196  mv dath_vador.txt
+  197  mv darth_vador.txt empire/death-star
+  198  mv darth_vader.txt empire/death_star/
+  199  mv darth_vader.txt star_wars/empire/death_star/
+  200  mv darth_vader.txt star_wars/empire/death_star
+  201  echo "Help me, Obi-Wan…You’re my only hope." touch star_wars/empire/princess_leia.txt
+  202  echo "Help me, obi-Wan...You're my only hope." touch star_wars/empire/princess_leia.txt
+  203  echo "Help me, Obi-Wan…You’re my only hope." > star_wars/rebellion/princess_leia.txt
+  204  touch star_wars/rebellion/obi_wan.txt
+  205  touch star_wars/rebellion/luke_skywalker.txt
+  206  mkdir star_wars/rebellion/millenium_falcon
+  207  touch star_wars/millenium_falcon/han_solo.txt
+  208  touch star_wars/rebellion/millenium_falcon/han_solo.txt
+  209  touch star_wars/rebellion/millenium_falcon/chewbacca.txt
+  210  mv luke_skywalker.txt star_wars/rebellion/millenium_falcon/
+  211  mv luke_skywalker.txt star_wars/rebellion/millenium_falcon
+  212  princess_leia.txt star_wars/rebellion/millenium_falcon/
+  213  mv princess_leia.txt star_wars/rebellion/millenium_falcon/
+  214  mv star_wars/rebellion/millenium_falcon empire/death_star/
+  215  mv star_wars/rebellion/millenium_falcon -> empire/death_star/
+  216  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star/
+  217  mv empire/death_star/mellenium_falcon/ star_wars/empire/death-star
+  218  mv empire/death_star/mellenium_falcon/ empire/death-star\n
+  219  rm obi_wan.txt
+  220  rm
+  221  mv luke_skywalker.txt star_wars/death_star/millenium_falcon/
+  222  mv luke_skywalker.txt star_wars/death_star/millenium_falcon/\nmmv chewbacca.txt star_wars/death_star/millenium_falcon/\nmmv han_solo.txt star_wars/death_star/millenium_falcon/\nmmv princess_leia.txt star_wars/death_star/millenium_falcon/
+  223  Move the millenium_falcon back into the rebellion directory.
+  224  mv empire/death_star/mellenium_falcon star_wars/rebellion
+  225  mv empire/death_star/darth_vader.txt empire/
+  226  mv empire/death_star/darth_vader.txt empire
+  227  mv empire/death_star/darth_vader.txt star_wars/empire
+  228  rm empire/death-star
+  229  rm -r empire/death-star 
+  230  history
+  231  solution.tet
+  232  ls
+  233  rm Star_Wars
+  234  cd ~/Desktop
+  235  rm Star_Wars
+  236  cd
+  237  rm Star_Wars
+  238  git clone https://github.com/RyanWalck/Star_Wars.git
+  239  rm https://github.com/RyanWalck/Star_Wars.git
+  240  cd Star_Wars
+  241  rm Star_Wars
+  242  cd
+  243  rm -r Star_Wars
+  244  rm Star_Wats
+  245  rm Star_Wars
+  246  ls
+  247  git clone https://github.com/RyanWalck/Star_Wars.git
+  248  ls
+  249  cd Star_Wars
+  250  code .
+  251  mkdir star_wars
+  252  mkdir star_wars/rebellion star_wars/empire
+  253  touch star_wars/empire/darth_vader.txt
+  254  \n\necho "...heavy breathing..." >> star_wars/empire/darth_vader.txt\n
+  255  touch star_wars/empire/emperor_palpatine.txt
+  256  mkdir star_wars/empire/death_star
+  257  mv darth_vader.txt empire/death_star
+  258  mv darth_vader.txt death_star/
+  259  mv darth_vader.txt star_wars/empire/death_star/
+  260  mv darth_vader.txt star_wars/empire/death_star
+  261  mv darth_vader.txt empire/death_star
+  262  mv darth_vader.txt empire/death_star/
+  263  echo "Help me, obi-Wan...You're my only hope." > touch star_wars/empire/princess_leia.txt
+  264  touch star_wars/empire/princess_leia.txt
+  265  touch star_wars/rebellion/princess_leia.txt
+  266  touch star_wars/rebellion/obi_wan.txt
+  267  touch star_wars/rebellion/luke_skywalker.txt
+  268  mkdir star_wars/rebellion/millenium_falcon
+  269  touch star_wars/rebellion/millenium_falcon/han_solo.txt
+  270  touch star_wars/rebellion/millenium_falcon/chewbacca.txt
+  271  mv luke_skywalker.txt star_wars/rebellion/millenium_falcon/
+  272  mv luke_skywalker.txt star_wars/rebellion/millenium_falcon
+  273  mv luke_skywalker.txt millenium_falcon
+  274  mv luke_skywalker.txt millenium_falcon/
+  275  mv luke_skywalker.txt millenium_falcon
+  276  cd rebellion
+  277  ls
+  278  cd star_wars
+  279  ls
+  280  cd rebellion
+  281  ls
+  282  mv luke_skywalker.txt millenium_falcon
+  283  ls
+  284  mv obi_wan.txt millenium_falcon
+  285  mv princess_leia.tx mellenium_falcon
+  286  mv princess_leia.txt mellenium_falcon
+  287  mv mellenium_falcon death_star
+  288  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star/
+  289  mv mellenium_falcon death_star
+  290  cd star_wars
+  291  lsl
+  292  ls
+  293  cd mellenium_falcon
+  294  cd star_wars
+  295  cd death_star
+  296  ls
+  297  cd ..
+  298  mv rebellion/millenium_falcon empire/death_star
+  299  mv empire/death_star/mellenium_falcon/ star_wars/empire/death-star
+  300  cd
+  301  ls
+  302  cd Star_Wars
+  303  ls
+  304  cd star_wars
+  305  ls
+  306  cd empire
+  307  ls
+  308  cd death_star
+  309  mv mellenium_falcon/*
+  310  mv mellenium_falcon
+  311  mv millenium_falcon death-star
+  312  rm obi_wan.txt
+  313  rm -f obi_wan.txt
+  314  mv death_star mellenium_falcon
+  315  mkdir star_wars/death_star/millenium_falcon
+  316  mkdir millenium_falcon
+  317  mv  death-star millenium_falcon
+  318  mv millenium_falcon star_wars/rebellion
+  319  mv millenium_falcon/death-star star_wars/rebellion
+  320  ls
+  321  mv darth_vador.txt star_wars/empire
+  322  ls
+  323  cd darth_vader.txt
+  324  mv darth-vador.txt star_wars/empire
+  325  mv darth_vador.txt empire
+  326  code ..
+  327  cd ..
+  328  rm -r death_star
+  329  cd empire
+  330  rm -r death_star
