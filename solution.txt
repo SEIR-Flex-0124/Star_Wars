@@ -1,0 +1,32 @@
+  522  git status
+  523  cd ..
+  524  git clone https://github.com/rjcrowderschaefer/Star_Wars.git
+  525  ls
+  526  cd Star_Wars
+  527  touch star_wars/empire/emperor_palpatine.txt
+  528  mkdir star_wars/empire/death_star
+  529  mv star_wars/empire/darth_vader.txt star_wars/empire/death_star
+  530  git add .
+  531  git commit -m "Completed act 1"
+  532  git push origin master
+  533  mkdir star_wars/rebellion
+  534  touch star_wars/rebellion/princess_leia.txt && echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess_leia.txt
+  535  touch star_wars/rebellion/obi_wan.txt
+  536  touch star_wars/rebellion/luke_skywalker.txt
+  537  mkdir star_wars/rebellion/millenium_falcon
+  538  touch star_wars/rebellion/millenium_falcon/han_solo.txt star_wars/rebellion/millenium_falcon/chewbacca.txt
+  539  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion/obi_wan.txt star_wars/rebellion/princess_leia.txt star_wars/rebellion/millenium_falcon
+  540  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  541  git add .
+  542  git commit -m "Completed act 2"
+  543  git push origin master
+  544  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  545  rm star_wars/empire/death_star/obi_wan.txt
+  546  mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/luke_skywalker.txt /star_wars/empire/death_star/princess_leia.txt star_wars/empire/death_star/millenium_falcon
+  547  mv star_wars/empire/death_star/millenium_falcon star_wars/rebellion
+  548  mv star_wars/empire/death_star/princess_leia.txt star_wars/rebellion/millenium_falcon
+  549  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire
+  550  rm -r star_wars/empire/death_star
+  551  git add .
+  552  git commit -m "Completed act 3"
+  553  git push origin master
