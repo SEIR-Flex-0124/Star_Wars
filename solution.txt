@@ -1,0 +1,96 @@
+727  git clone https://github.com/SEIR-Flex-0124/Star_Wars-6.git
+  728  ls
+  729  cd Star_Wars-6
+  730  code .
+  731  mkdir star_wars
+  732  cd star_wars
+  733  touch star_wars/emperor_palpatine.txt
+  734  touch star_wars/empire/emperor_palpatine.txt
+  735  ls
+  736  cd empire
+  737  touch emperor_palpatine.txt
+  738  ls
+  739  cd ..
+  740  mkdir star_wars/empire/death_star
+  741  cd empire
+  742  mkdir death_star
+  743  cd ..
+  744  cd
+  745  cd
+  746  pwd
+  747  cd empire
+  748  ls
+  749  mv darth_vader.txt death_star
+  750  ls
+  751  git add .
+  752  git commit -m "completed act1"
+  753  git push origin master
+  754  touch star_wars/rebellion/princess_leila.txt && echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess.leila.txt
+  755  cd ..
+  756  touch star_wars/rebellion/princess_leila.txt && echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess.leila.txt
+  757  cd ..
+  758  touch star_wars/rebellion/princess_leila.txt && echo "Help me, Obi-Wan…You’re my only hope." >> star_wars/rebellion/princess.leila.txt
+  759  cd star_wars
+  760  ls
+  761  cd empire
+  762  ls
+  763  cd ..
+  764  ls
+  765  mkdir rebellion
+  766  cd rebellion
+  767  touch princess_leila.txt 
+  768  ls
+  769  pwd
+  770  echo "Help me, Obi-Wan...You're my only hope." >>star_wars/rebellion/princess.leila.txt
+  771  cd ..
+  772  touch  Star_Wars-6/star_wars/rebellion/obi_wan.txt
+  773  ls
+  774  cd rebellion
+  775  mkdir millenium_falcon
+  776  l
+  777  ls
+  778  cd ..
+  779  cd rebellion
+  780  ls
+  781  cd millenium_falcon
+  782  touch han_solo.txt
+  783  touch chewbacca.txt
+  784  cd ..
+  785  mv star_wars/rebellion/luke_skywalker.txt star_wars/rebellion//princess_leila.txt /star_wars/rebellion/obi_wan.txt star_Wars-6/star_wars/rebellion/millenium_falcon
+  786  mv star_wars/rebellion/millenium_falcon star_wars/empire/death_star
+  787  ls 
+  788  cd empire
+  789  ls
+  790  git add .
+  791  git commit -m "done with act2"
+  792  git push origin master
+  793  cd ..
+  794  mv star_wars/empire/death_star/millenium_falcon/* star_wars/empire/death_star
+  795  rm star_wars/empire/death_star/obi_wan.txt
+  796  mv mv star_wars/empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_txt star_wars/empire/death_star/millenium_falcon
+  797  mv /empire/death_star/chewbacca.txt star_wars/empire/death_star/han_solo.txt Star_Wars-6/star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_txt star_wars/empire/death_star/millenium_falcon
+  798  mv star_wars/empire/death_star/chewbacca.txt /Star_Wars-6/star_wars/empire/death_star/han_solo.txt Star_Wars-6/star_wars/empire/death_star/luke_skywalker.txt star_wars/empire/death_star/princess_leila.txt star_wars/empire/death_star/millenium_falcon
+  799  mv star_wars/empire/death_star/millenium_falcon star_wars//rebellion
+  800  mv star_wars/empire/death_star/empire/death_star/darth_vader/txt star_wars/empire/death_star/empire
+  801  mv star_wars/empire/death_star/darth_vader.txt star_wars/empire/death_star/empire
+  802  rm star_wars/empire/death_star
+  803  rmdir star_wars/empire/death_star
+  804  mv star_wars/empire/death_star/millinium_falcon star_wars/rebellion
+  805  mv star_wars/empire/death_star/millinium_falcon star_wars/rebellion  star_wars/rebellion
+  806  mv star_wars/empire/death_star/millenium_falcon /star_wars//rebellion
+  807  mv star_wars/empire/death_star/millenium_falcon /star_wars/rebellion
+  808  mv star_wars/empire/millenium_falcon /star_wars/rebellion
+  809  ls
+  810  mv star_wars/empire/millenium_falcon /star_wars/rebellion
+  811  ls
+  812  cd rebellion
+  813  ls
+  814  mv princess.leila.txt /star_wars/rebellion/millenium_falcon
+  815  ls
+  816  cd millenium_falcon
+  817  ls
+  818  touch luke_skywalker.txt
+  819  ls
+  820  git add .
+  821  git commit -m "finished act 3 "
+  822  git push origin master
